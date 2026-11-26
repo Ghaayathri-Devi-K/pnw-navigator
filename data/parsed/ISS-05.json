@@ -1,0 +1,32 @@
+{
+  "id": "ISS-05",
+  "area": "ISS",
+  "title": "About Us - International Student Services - Purdue University Northwest",
+  "url": "https://pnw.edu/international-student-services/about-us",
+  "tag": "general",
+  "format": "html",
+  "valid_for_term": "Yearly",
+  "scraped_at": "2026-10-31T02:16:39.335073+00:00",
+  "raw_file": "data\\raw\\ISS-05.html",
+  "char_count": 1148,
+  "section_count": 4,
+  "text": "Purdue University Northwest\n>\nInternational Student Services\n>\nAbout Us\nAbout Us\nThe international student services office is here to help you every step of the way. Meet our team and see how they can help you succeed at Purdue University Northwest.\nOur offices are located on the second floor of Lawshe Hall on the Hammond Campus.\nMeet Our Team\nStaff\nRyan Hayes\nDirector of International Admissions and Immigration Services\nryan.hayes@pnw.edu\n(219) 989-2559\nLAWS 226\nJoann Infante\nInternational Admissions Manager\ninfante@pnw.edu\n(219) 989-2164\nLAWS 226C\nJanice Novosel\nInternational Services Specialist\nnovosel@pnw.edu\n(219) 989-2082\nLAWS 226\nBrooke Hewson\nInternational Services Specialist\nhewson@pnw.edu\n219-989-2082\nLAWS 226\nStudent\nPrerana Muttanahalli Eraiah\nGraduate Aide\niadmissions@pnw.edu\n(219) 989-2477\nMonefa George\nStudent Worker\niadmissions@pnw.edu\n(219) 989-2477\nInderjeet Kaur\nStudent Worker\niadmissions@pnw.edu\n(219) 989-2477\nConnect with a Current Student\nHave questions about the international student experience at Purdue University Northwest? Schedule an online meeting with a current student to learn more!\nSchedule a Meeting",
+  "sections": [
+    {
+      "heading": "About Us",
+      "content": "The international student services office is here to help you every step of the way. Meet our team and see how they can help you succeed at Purdue University Northwest.\nOur offices are located on the second floor of Lawshe Hall on the Hammond Campus."
+    },
+    {
+      "heading": "Staff",
+      "content": "Ryan Hayes\nDirector of International Admissions and Immigration Services\nryan.hayes@pnw.edu\n(219) 989-2559\nLAWS 226\nJoann Infante\nInternational Admissions Manager\ninfante@pnw.edu\n(219) 989-2164\nLAWS 226C\nJanice Novosel\nInternational Services Specialist\nnovosel@pnw.edu\n(219) 989-2082\nLAWS 226\nBrooke Hewson\nInternational Services Specialist\nhewson@pnw.edu\n219-989-2082\nLAWS 226"
+    },
+    {
+      "heading": "Student",
+      "content": "Prerana Muttanahalli Eraiah\nGraduate Aide\niadmissions@pnw.edu\n(219) 989-2477\nMonefa George\nStudent Worker\niadmissions@pnw.edu\n(219) 989-2477\nInderjeet Kaur\nStudent Worker\niadmissions@pnw.edu\n(219) 989-2477"
+    },
+    {
+      "heading": "Connect with a Current Student",
+      "content": "Have questions about the international student experience at Purdue University Northwest? Schedule an online meeting with a current student to learn more!"
+    }
+  ]
+}

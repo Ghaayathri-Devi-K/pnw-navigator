@@ -1,0 +1,24 @@
+{
+  "id": "INS-02",
+  "area": "Insurance (M2)",
+  "title": "Purdue University Northwest | Home",
+  "url": "https://pnw.myahpcare.com/",
+  "tag": "insurance",
+  "format": "html",
+  "valid_for_term": "Each plan year",
+  "scraped_at": "2026-10-31T02:17:08.193147+00:00",
+  "raw_file": "data\\raw\\INS-02.html",
+  "char_count": 2227,
+  "section_count": 2,
+  "text": "Frequently Asked Questions\n2026-2027\nPurdue University Northwest\nWelcome to your one stop to find information about the insurance your school offers.\nOnline only students are not eligible for Purdue University student insurance.\nSpring/Summer Enrollment Period is 12/01/2026 at 8AM ET - 02/02/2027 at 5PM ET\nExplore the Plan\nVision Option\nDelta Dental Info/Card\nMobile App Flyer\nHow to Create a UHC Account\nHow to Request an ID Card\nAlready Have an Account?\nAccount Dashboard\nEligibility\nAll registered full-time students as well as degree-seeking co-op students are eligible to enroll in Purdue’s student insurance.\nDomestic students are not required to take the student insurance, but you are expected to have coverage outside of Purdue.\nAll international students who are registered for classes, regardless of credit hours, visa status, or insurance policy type, are required to enroll in the University-sponsored medical insurance plan or to obtain an approved\nwaiver\nof coverage by the enrollment/waiver deadline.\nNews & Notes\nView enrollment guide\nI only want the dental preventive plan, and I am not enrolling in the Student Health Insurance Plan\nChange Coverage\nCheck to see if you have a Qualifying Event\nEnroll/Make Changes with a Qualifying Event\nContinuation Coverage\nContinuation eligibility requirements and cost\nEnroll in Continuation Coverage (for those who are no longer eligible for student insurance because they have graduated or are no longer taking classes)\nWhat can we help you with?\nSelect any of the quick access options to locate more information. Still can't find something specific?\nReach Out\nBenefits\nView information about the Student Health Insurance Plan and products included in your enrollment\nCost\nView plan cost\nWaiver\nReview waiver eligibility (International students only)\nFind a Provider\nFind in-network providers\nInsurance ID Card & Other Resources\nAccess insurance ID card, account information, and other resources\nContact Information\nView contact information for medical, dental, vision, and products\n2025-2026 Plan Year\nView 2025-2026 plan year information\nHome(Enroll)\nBenefits\nWaiver\nContact\nRegulatory Notices\n© 2026\nAcademic HealthPlans, Inc.\nAll Rights Reserved\nPrivacy Statement",
+  "sections": [
+    {
+      "heading": "Purdue University Northwest",
+      "content": "Eligibility\nAll registered full-time students as well as degree-seeking co-op students are eligible to enroll in Purdue’s student insurance.\nDomestic students are not required to take the student insurance, but you are expected to have coverage outside of Purdue.\nAll international students who are registered for classes, regardless of credit hours, visa status, or insurance policy type, are required to enroll in the University-sponsored medical insurance plan or to obtain an approvedwaiverof coverage by the enrollment/waiver deadline.\nView enrollment guide\nI only want the dental preventive plan, and I am not enrolling in the Student Health Insurance Plan\nChange CoverageCheck to see if you have a Qualifying EventEnroll/Make Changes with a Qualifying Event\nCheck to see if you have a Qualifying Event\nEnroll/Make Changes with a Qualifying Event\nContinuation CoverageContinuation eligibility requirements and costEnroll in Continuation Coverage (for those who are no longer eligible for student insurance because they have graduated or are no longer taking classes)\nContinuation eligibility requirements and cost\nEnroll in Continuation Coverage (for those who are no longer eligible for student insurance because they have graduated or are no longer taking classes)"
+    },
+    {
+      "heading": "What can we help you with?",
+      "content": "Select any of the quick access options to locate more information. Still can't find something specific?\nReach Out"
+    }
+  ]
+}

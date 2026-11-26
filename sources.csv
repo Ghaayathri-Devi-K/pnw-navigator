@@ -1,0 +1,23 @@
+id,area,title,url,tag,format,valid_for_term
+ISS-01,ISS,Immigration Services (ISS home),https://www.pnw.edu/international-student-services/immigration-services/,immigration,html,Each term
+ISS-02,ISS,Welcome Guide (new international students),https://www.pnw.edu/international-student-services/welcome-guide/,immigration,html,Every term (dates change)
+ISS-03,ISS,Student Visa Application Procedures and Tips (I-20 / F-1 visa),https://www.pnw.edu/international-student-services/wp-content/uploads/sites/73/2026/02/Student-Visa-Application-Procedures-and-Tips-1.pdf,immigration,pdf,Yearly
+ISS-04,ISS,F-1 Transfer Information (Hammond campus),https://www.pnw.edu/wp-content/uploads/2026/02/Transfer-information-form-Hammond.pdf,immigration,pdf,Yearly
+ISS-05,ISS,About Us (office contacts),https://pnw.edu/international-student-services/about-us,general,html,Yearly
+ISS-06,ISS,Graduate New Student Orientation,https://www.pnw.edu/graduate-studies/admission/new-student-orientation/,orientation,html,Each term
+ISS-07,ISS,Undergraduate New Student Orientation (NSO),https://www.pnw.edu/admissions/undergraduate/admitted-students/the-point/new-student-orientation/,orientation,html,Each term
+ISS-08,ISS,International Graduate Students (admission),https://www.pnw.edu/graduate-studies/admission/international-graduate-students/,immigration,html,Yearly
+HOU-01,Housing,Apply for Housing,https://www.pnw.edu/housing/apply-for-housing/,housing,html,Each academic year
+HOU-02,Housing,"Room Types, Costs & Payment",https://www.pnw.edu/housing/?p=9,housing,html,Each academic year
+HOU-03,Housing,Housing FAQs,https://www.pnw.edu/housing/housing-resources/faqs/,housing,html,Yearly
+HOU-04,Housing,Housing home (room types overview),https://www.pnw.edu/housing/,housing,html,Yearly
+REG-01,Registrar,Registrar FAQ,https://www.pnw.edu/registrar/frequently-asked-questions/,registration,html,Yearly
+REG-02,Registrar,Refund and Withdrawal Schedule,https://www.pnw.edu/registrar/academic-schedule/refund-withdrawal-schedule/,registration,html,Each term
+REG-03,Registrar,Full Academic Calendar (linked from REG-02),(URL not found in search results),registration,pdf,Each term
+REG-04,Registrar,PNW events feed (key dates),https://www.pnw.edu/electrical-computer-engineering/events/tag/student-life/,registration,html,Each term
+ISS-09,ISS (M2),Optional Practical Training (OPT),https://pnw.edu/international-student-services/?p=95,immigration,html,Check each term
+ISS-10,ISS (M2),Curricular Practical Training (CPT),https://www.pnw.edu/international-student-services/immigration-services/curricular-practical-training/,immigration,html,Check each term
+ISS-11,ISS (M2),Student Employment hub,https://www.pnw.edu/international-student-services/student-employment/,immigration,html,Yearly
+INS-01,Insurance (M2),Student health insurance: Waiver (plan year 2026-27),https://pnw.myahpcare.com/waiver,insurance,html,Each plan year
+INS-02,Insurance (M2),"Insurance site: Benefits, FAQs, Enroll",https://pnw.myahpcare.com/,insurance,html,Each plan year
+INS-03,Insurance (M2),Dean of Students: Student Health Insurance,https://www.pnw.edu/dean-of-students/?p=338,insurance,html,Yearly

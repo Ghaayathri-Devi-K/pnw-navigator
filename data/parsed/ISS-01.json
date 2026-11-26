@@ -1,0 +1,36 @@
+{
+  "id": "ISS-01",
+  "area": "ISS",
+  "title": "Immigration Services - International Student Services - Purdue University Northwest",
+  "url": "https://www.pnw.edu/international-student-services/immigration-services/",
+  "tag": "immigration",
+  "format": "html",
+  "valid_for_term": "Each term",
+  "scraped_at": "2026-10-31T02:16:10.616393+00:00",
+  "raw_file": "data\\raw\\ISS-01.html",
+  "char_count": 2399,
+  "section_count": 5,
+  "text": "Purdue University Northwest\n>\nInternational Student Services\n>\nImmigration Services\nImmigration Services\nWe support internationalization and global awareness through on-campus programming as well as welcoming international students.\nHealth Insurance\nAll international undergraduate and graduate students who are registered, regardless of credit hours, or in an approved professional certificate program must enroll in the mandatory university health insurance plan unless you meet the criteria for a waiver.\nLearn More About Undergraduate Health Insurance\nLearn About Graduate Health Insurance\nSupporting International Students and Scholars\nCommitted to the internationalization of Purdue University Northwest, we provide services to international clientele as well as  university and offices. We also enhance the academic, cultural and social pursuits of students and scholars from abroad through expertise in immigration, advising, and cross-cultural programming.\nImmigration Services\nImmigration information is the most important service we offer. We are the expert resource in the areas of F-1 and J-1 rules and regulations.We have information regarding the new administration’s changes to immigration law or practice in the U.S.,  including travel, visa issuance, Executive Orders and special FAQs.\nImmigration-Related Services\nGuidance on maintaining good immigration Status\nExtension-of-stay applications; transfer to or from other U.S. institution\nEmployment applications, including on- and off-campus options\nReinstatement applications\nTravel endorsements\nReduced course load Authorization\nApplications to change non-immigrant status\nProduction of immigration documents for prospective undergraduate and graduate students\nExchange Visitor Program (J-1 student and scholar visa information)\nImportant Immigration Updates and News\nContact Us\niss@pnw.edu\n(219) 989-2082\nWalk-In Advising\nLawshe 226\nMonday through Friday 9:00 a.m. to 4:00 p.m.\nAppointment Advising\nBy Appointment\nStudy in the States is for F1 and J1 Student Visa Holders and other working visa holders in the U.S. This comprehensive tool can help you with a variety of student visa-related questions and issues.\nLearn More\nConnect with a Current Student\nHave questions about the international student experience at Purdue University Northwest? Schedule an online meeting with a current student to learn more!\nSchedule a Meeting",
+  "sections": [
+    {
+      "heading": "Immigration Services",
+      "content": "We support internationalization and global awareness through on-campus programming as well as welcoming international students.\nHealth Insurance\nAll international undergraduate and graduate students who are registered, regardless of credit hours, or in an approved professional certificate program must enroll in the mandatory university health insurance plan unless you meet the criteria for a waiver.\nLearn More About Undergraduate Health Insurance\nLearn About Graduate Health Insurance"
+    },
+    {
+      "heading": "Supporting International Students and Scholars",
+      "content": "Committed to the internationalization of Purdue University Northwest, we provide services to international clientele as well as  university and offices. We also enhance the academic, cultural and social pursuits of students and scholars from abroad through expertise in immigration, advising, and cross-cultural programming."
+    },
+    {
+      "heading": "Immigration Services",
+      "content": "Immigration information is the most important service we offer. We are the expert resource in the areas of F-1 and J-1 rules and regulations.We have information regarding the new administration’s changes to immigration law or practice in the U.S.,  including travel, visa issuance, Executive Orders and special FAQs.\nImmigration-Related Services\nGuidance on maintaining good immigration Status\nExtension-of-stay applications; transfer to or from other U.S. institution\nEmployment applications, including on- and off-campus options\nReinstatement applications\nTravel endorsements\nReduced course load Authorization\nApplications to change non-immigrant status\nProduction of immigration documents for prospective undergraduate and graduate students\nExchange Visitor Program (J-1 student and scholar visa information)\nImportant Immigration Updates and News"
+    },
+    {
+      "heading": "Contact Us",
+      "content": "iss@pnw.edu(219) 989-2082\nWalk-In Advising\nLawshe 226Monday through Friday 9:00 a.m. to 4:00 p.m.\nAppointment Advising\nBy Appointment\nStudy in the States is for F1 and J1 Student Visa Holders and other working visa holders in the U.S. This comprehensive tool can help you with a variety of student visa-related questions and issues."
+    },
+    {
+      "heading": "Connect with a Current Student",
+      "content": "Have questions about the international student experience at Purdue University Northwest? Schedule an online meeting with a current student to learn more!"
+    }
+  ]
+}

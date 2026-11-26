@@ -1,0 +1,922 @@
+[
+  {
+    "fact_id": "F-001",
+    "topic": "ISS contact",
+    "expected_source_id": "ISS-01",
+    "query_preview": "Email iss@pnw.edu, phone (219) 989-2082. Walk-in advising in Lawshe 226, Monday-",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "ISS-01",
+    "top_similarity": 0.726,
+    "top_sources_returned": [
+      "ISS-01",
+      "HOU-03",
+      "ISS-06",
+      "ISS-06",
+      "HOU-03"
+    ]
+  },
+  {
+    "fact_id": "F-002",
+    "topic": "ISS services",
+    "expected_source_id": "ISS-01",
+    "query_preview": "ISS handles: guidance on maintaining status, extension of stay, transfers, on- a",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "ISS-01",
+    "top_similarity": 0.5751,
+    "top_sources_returned": [
+      "ISS-01",
+      "ISS-01",
+      "ISS-10",
+      "ISS-10",
+      "ISS-01"
+    ]
+  },
+  {
+    "fact_id": "F-003",
+    "topic": "Mandatory check-in",
+    "expected_source_id": "ISS-02",
+    "query_preview": "After arriving in the U.S., log in to MyISS and complete the mandatory internati",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "ISS-02",
+    "top_similarity": 0.8826,
+    "top_sources_returned": [
+      "ISS-02",
+      "ISS-08",
+      "ISS-01",
+      "ISS-06",
+      "ISS-09"
+    ]
+  },
+  {
+    "fact_id": "F-004",
+    "topic": "Mandatory check-in",
+    "expected_source_id": "ISS-02",
+    "query_preview": "Bring: passport with the appropriate student/scholar visa; Certificate of Eligib",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "ISS-02",
+    "top_similarity": 0.6419,
+    "top_sources_returned": [
+      "ISS-02",
+      "ISS-09",
+      "ISS-08",
+      "ISS-09",
+      "ISS-08"
+    ]
+  },
+  {
+    "fact_id": "F-005",
+    "topic": "Orientation and airport pickup",
+    "expected_source_id": "ISS-02",
+    "query_preview": "New International Student Orientation Aug. 21, 2026. Free pickup from Chicago O'",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "ISS-02",
+    "top_similarity": 0.5097,
+    "top_sources_returned": [
+      "ISS-02",
+      "REG-04",
+      "ISS-02",
+      "ISS-08",
+      "ISS-02"
+    ]
+  },
+  {
+    "fact_id": "F-006",
+    "topic": "Housing recommendation",
+    "expected_source_id": "ISS-02",
+    "query_preview": "ISS recommends University Village, the on-campus apartment-style complex on the ",
+    "hit_at": {
+      "1": false,
+      "3": false,
+      "5": false
+    },
+    "top_result_source_id": "HOU-04",
+    "top_similarity": 0.7175,
+    "top_sources_returned": [
+      "HOU-04",
+      "HOU-04",
+      "HOU-02",
+      "HOU-03",
+      "HOU-04"
+    ]
+  },
+  {
+    "fact_id": "F-007",
+    "topic": "Health insurance rule",
+    "expected_source_id": "ISS-01, ISS-02",
+    "query_preview": "All international undergraduate and graduate students who are registered, regard",
+    "hit_at": {
+      "1": false,
+      "3": false,
+      "5": false
+    },
+    "top_result_source_id": "ISS-02",
+    "top_similarity": 0.8685,
+    "top_sources_returned": [
+      "ISS-02",
+      "ISS-08",
+      "ISS-01",
+      "ISS-06",
+      "ISS-08"
+    ]
+  },
+  {
+    "fact_id": "F-010",
+    "topic": "OPT basics",
+    "expected_source_id": "ISS-09",
+    "query_preview": "OPT allows employment in the field of study for 12 months after the degree; the ",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "ISS-09",
+    "top_similarity": 0.8326,
+    "top_sources_returned": [
+      "ISS-09",
+      "ISS-11",
+      "ISS-09",
+      "ISS-09",
+      "ISS-09"
+    ]
+  },
+  {
+    "fact_id": "F-011",
+    "topic": "OPT window",
+    "expected_source_id": "ISS-09",
+    "query_preview": "Apply no earlier than 90 days before graduation or no later than 60 days after. ",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "ISS-09",
+    "top_similarity": 0.7238,
+    "top_sources_returned": [
+      "ISS-09",
+      "ISS-09",
+      "ISS-09",
+      "ISS-08",
+      "ISS-09"
+    ]
+  },
+  {
+    "fact_id": "F-012",
+    "topic": "OPT start date",
+    "expected_source_id": "ISS-09",
+    "query_preview": "Start date can be the day after the program end date through the 60th day after.",
+    "hit_at": {
+      "1": false,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "INS-03",
+    "top_similarity": 0.4479,
+    "top_sources_returned": [
+      "INS-03",
+      "ISS-09",
+      "INS-03",
+      "ISS-08",
+      "ISS-08"
+    ]
+  },
+  {
+    "fact_id": "F-013",
+    "topic": "OPT documents",
+    "expected_source_id": "ISS-09",
+    "query_preview": "Packet from ISS (LAWS 226); typed I-765; job offer if available (not required to",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "ISS-09",
+    "top_similarity": 0.6906,
+    "top_sources_returned": [
+      "ISS-09",
+      "ISS-09",
+      "ISS-02",
+      "ISS-09",
+      "ISS-01"
+    ]
+  },
+  {
+    "fact_id": "F-014",
+    "topic": "OPT ISS review",
+    "expected_source_id": "ISS-09",
+    "query_preview": "ISS review takes no more than one week; ISS prepares the OPT recommendation I-20",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "ISS-09",
+    "top_similarity": 0.5884,
+    "top_sources_returned": [
+      "ISS-09",
+      "ISS-09",
+      "ISS-09",
+      "ISS-09",
+      "ISS-09"
+    ]
+  },
+  {
+    "fact_id": "F-015",
+    "topic": "OPT work start",
+    "expected_source_id": "ISS-09",
+    "query_preview": "Work may begin only after the I-765 is approved, the EAD card is in hand, and th",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "ISS-09",
+    "top_similarity": 0.6049,
+    "top_sources_returned": [
+      "ISS-09",
+      "ISS-09",
+      "ISS-09",
+      "ISS-09",
+      "ISS-09"
+    ]
+  },
+  {
+    "fact_id": "F-016",
+    "topic": "OPT processing",
+    "expected_source_id": "ISS-09",
+    "query_preview": "USCIS review takes 90 to 150 days; contact ISS if 90 days pass without the EAD. ",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "ISS-09",
+    "top_similarity": 0.7203,
+    "top_sources_returned": [
+      "ISS-09",
+      "ISS-09",
+      "ISS-09",
+      "ISS-09",
+      "ISS-09"
+    ]
+  },
+  {
+    "fact_id": "F-017",
+    "topic": "Address and reporting",
+    "expected_source_id": "ISS-09",
+    "query_preview": "Email iss@pnw.edu within 10 days of moving (immigration regulation), update USPS",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "ISS-09",
+    "top_similarity": 0.8112,
+    "top_sources_returned": [
+      "ISS-09",
+      "ISS-09",
+      "ISS-08",
+      "ISS-01",
+      "ISS-09"
+    ]
+  },
+  {
+    "fact_id": "F-018",
+    "topic": "OPT unemployment",
+    "expected_source_id": "ISS-09",
+    "query_preview": "During the 12 months, up to 90 days of unemployment is allowed; more than 90 day",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "ISS-09",
+    "top_similarity": 0.674,
+    "top_sources_returned": [
+      "ISS-09",
+      "ISS-09",
+      "ISS-09",
+      "ISS-09",
+      "ISS-09"
+    ]
+  },
+  {
+    "fact_id": "F-019",
+    "topic": "OPT other rules",
+    "expected_source_id": "ISS-09",
+    "query_preview": "OPT cannot be canceled once the EAD is approved. 12 months of OPT is available a",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "ISS-09",
+    "top_similarity": 0.7798,
+    "top_sources_returned": [
+      "ISS-09",
+      "ISS-09",
+      "ISS-09",
+      "ISS-09",
+      "ISS-09"
+    ]
+  },
+  {
+    "fact_id": "F-020",
+    "topic": "STEM OPT",
+    "expected_source_id": "ISS-09",
+    "query_preview": "STEM OPT Extension gives two additional years for qualifying STEM fields. Requir",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "ISS-09",
+    "top_similarity": 0.7656,
+    "top_sources_returned": [
+      "ISS-09",
+      "ISS-09",
+      "ISS-09",
+      "ISS-09",
+      "ISS-09"
+    ]
+  },
+  {
+    "fact_id": "F-030",
+    "topic": "CPT eligibility",
+    "expected_source_id": "ISS-10",
+    "query_preview": "Must: complete one academic year of full-time enrollment (fall and spring; summe",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "ISS-10",
+    "top_similarity": 0.6603,
+    "top_sources_returned": [
+      "ISS-10",
+      "ISS-10",
+      "ISS-10",
+      "ISS-10",
+      "INS-01"
+    ]
+  },
+  {
+    "fact_id": "F-031",
+    "topic": "CPT documents",
+    "expected_source_id": "ISS-10",
+    "query_preview": "Valid passport; CPT application completed by advisor/coordinator/department head",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "ISS-10",
+    "top_similarity": 0.8216,
+    "top_sources_returned": [
+      "ISS-10",
+      "ISS-10",
+      "ISS-10",
+      "ISS-10",
+      "ISS-10"
+    ]
+  },
+  {
+    "fact_id": "F-032",
+    "topic": "CPT enrollment",
+    "expected_source_id": "ISS-10",
+    "query_preview": "Part-time CPT is up to 20 hours per week and full-time is more than 20. During C",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "ISS-10",
+    "top_similarity": 0.7554,
+    "top_sources_returned": [
+      "ISS-10",
+      "ISS-10",
+      "ISS-10",
+      "ISS-10",
+      "ISS-10"
+    ]
+  },
+  {
+    "fact_id": "F-033",
+    "topic": "CPT authorization",
+    "expected_source_id": "ISS-10",
+    "query_preview": "ISS records CPT on page 2 of the I-20; no EAD is needed. Authorization is for a ",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "ISS-10",
+    "top_similarity": 0.6005,
+    "top_sources_returned": [
+      "ISS-10",
+      "ISS-09",
+      "ISS-10",
+      "ISS-09",
+      "ISS-10"
+    ]
+  },
+  {
+    "fact_id": "F-034",
+    "topic": "CPT and OPT",
+    "expected_source_id": "ISS-10",
+    "query_preview": "365 days (12 months) or more of full-time CPT makes a student ineligible for OPT",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "ISS-10",
+    "top_similarity": 0.7116,
+    "top_sources_returned": [
+      "ISS-10",
+      "ISS-09",
+      "ISS-11",
+      "ISS-09",
+      "ISS-09"
+    ]
+  },
+  {
+    "fact_id": "F-040",
+    "topic": "Housing application",
+    "expected_source_id": "HOU-01",
+    "query_preview": "The application is only available in the myPNW portal (Purdue login required). F",
+    "hit_at": {
+      "1": false,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "ISS-02",
+    "top_similarity": 0.5528,
+    "top_sources_returned": [
+      "ISS-02",
+      "HOU-01",
+      "ISS-06",
+      "ISS-08",
+      "REG-01"
+    ]
+  },
+  {
+    "fact_id": "F-041",
+    "topic": "Housing deposit",
+    "expected_source_id": "HOU-01, HOU-03",
+    "query_preview": "The $200 deposit is refundable until the housing contract is signed, covers poss",
+    "hit_at": {
+      "1": false,
+      "3": false,
+      "5": false
+    },
+    "top_result_source_id": "HOU-01",
+    "top_similarity": 0.6767,
+    "top_sources_returned": [
+      "HOU-01",
+      "HOU-03",
+      "HOU-01",
+      "HOU-03",
+      "HOU-02"
+    ]
+  },
+  {
+    "fact_id": "F-042",
+    "topic": "Application complete",
+    "expected_source_id": "HOU-03",
+    "query_preview": "Complete means: online application, application fee, deposit, and immunizations ",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "HOU-03",
+    "top_similarity": 0.5141,
+    "top_sources_returned": [
+      "HOU-03",
+      "HOU-01",
+      "HOU-03",
+      "REG-01",
+      "ISS-09"
+    ]
+  },
+  {
+    "fact_id": "F-043",
+    "topic": "Housing and enrollment",
+    "expected_source_id": "HOU-03",
+    "query_preview": "Residents must register full-time (12 hours undergraduate, 8 hours graduate) by ",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "HOU-03",
+    "top_similarity": 0.7014,
+    "top_sources_returned": [
+      "HOU-03",
+      "REG-01",
+      "HOU-03",
+      "HOU-03",
+      "ISS-10"
+    ]
+  },
+  {
+    "fact_id": "F-044",
+    "topic": "Housing deadlines",
+    "expected_source_id": "HOU-01",
+    "query_preview": "Academic Year 25-26: application opens Jan. 1, 2026 for new/previous students an",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "HOU-01",
+    "top_similarity": 0.6875,
+    "top_sources_returned": [
+      "HOU-01",
+      "HOU-01",
+      "INS-03",
+      "REG-02",
+      "REG-04"
+    ]
+  },
+  {
+    "fact_id": "F-045",
+    "topic": "Contract types",
+    "expected_source_id": "HOU-01",
+    "query_preview": "Academic contract (Aug-May, available January); Spring-only (Jan-May, available ",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "HOU-01",
+    "top_similarity": 0.6583,
+    "top_sources_returned": [
+      "HOU-01",
+      "HOU-01",
+      "ISS-08",
+      "INS-03",
+      "ISS-08"
+    ]
+  },
+  {
+    "fact_id": "F-046",
+    "topic": "Housing rates",
+    "expected_source_id": "HOU-02",
+    "query_preview": "2025-26: four-bedroom suite $6,873 ($3,436.50/semester); two-bedroom suite $8,00",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "HOU-02",
+    "top_similarity": 0.7735,
+    "top_sources_returned": [
+      "HOU-02",
+      "HOU-02",
+      "HOU-02",
+      "HOU-04",
+      "HOU-04"
+    ]
+  },
+  {
+    "fact_id": "F-047",
+    "topic": "Housing payment",
+    "expected_source_id": "HOU-02, HOU-03",
+    "query_preview": "Options: financial aid; online via myPNW; in person at the Enrollment Services C",
+    "hit_at": {
+      "1": false,
+      "3": false,
+      "5": false
+    },
+    "top_result_source_id": "HOU-03",
+    "top_similarity": 0.785,
+    "top_sources_returned": [
+      "HOU-03",
+      "ISS-06",
+      "HOU-03",
+      "ISS-07",
+      "ISS-06"
+    ]
+  },
+  {
+    "fact_id": "F-048",
+    "topic": "Housing cancellation",
+    "expected_source_id": "HOU-03",
+    "query_preview": "Submit the cancellation request form; review takes up to 10 business days; cance",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "HOU-03",
+    "top_similarity": 0.5108,
+    "top_sources_returned": [
+      "HOU-03",
+      "HOU-02",
+      "HOU-02",
+      "HOU-02",
+      "HOU-03"
+    ]
+  },
+  {
+    "fact_id": "F-049",
+    "topic": "Roommates and room changes",
+    "expected_source_id": "HOU-03",
+    "query_preview": "Roommate requests are not guaranteed and must be accepted by both students. Ther",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "HOU-03",
+    "top_similarity": 0.7418,
+    "top_sources_returned": [
+      "HOU-03",
+      "HOU-01",
+      "HOU-03",
+      "HOU-01",
+      "HOU-01"
+    ]
+  },
+  {
+    "fact_id": "F-050",
+    "topic": "Housing contact and mail",
+    "expected_source_id": "HOU-03",
+    "query_preview": "Contact housing@pnw.edu. Mail to: Full Name, 2440 173rd Street, Griffin Hall, Ap",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "HOU-03",
+    "top_similarity": 0.5822,
+    "top_sources_returned": [
+      "HOU-03",
+      "ISS-07",
+      "HOU-04",
+      "ISS-02",
+      "HOU-03"
+    ]
+  },
+  {
+    "fact_id": "F-060",
+    "topic": "How to register",
+    "expected_source_id": "REG-01",
+    "query_preview": "Register in the Student Scheduling Assistant widget in MyPNW. Taking 15 credits ",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "REG-01",
+    "top_similarity": 0.8437,
+    "top_sources_returned": [
+      "REG-01",
+      "REG-01",
+      "REG-01",
+      "REG-01",
+      "REG-01"
+    ]
+  },
+  {
+    "fact_id": "F-061",
+    "topic": "Priority registration",
+    "expected_source_id": "REG-01",
+    "query_preview": "Applies to fall and spring only. Order: graduate students, seniors, Honors Colle",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "REG-01",
+    "top_similarity": 0.6295,
+    "top_sources_returned": [
+      "REG-01",
+      "REG-01",
+      "REG-01",
+      "REG-01",
+      "REG-01"
+    ]
+  },
+  {
+    "fact_id": "F-062",
+    "topic": "Registration blockers",
+    "expected_source_id": "REG-01",
+    "query_preview": "Holds (financial or conduct) can block registration; closed classes may have a w",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "REG-01",
+    "top_similarity": 0.595,
+    "top_sources_returned": [
+      "REG-01",
+      "REG-01",
+      "REG-01",
+      "REG-01",
+      "REG-01"
+    ]
+  },
+  {
+    "fact_id": "F-063",
+    "topic": "Add / drop",
+    "expected_source_id": "REG-01",
+    "query_preview": "Add or drop in the Scheduling Assistant. Adding after the first week needs appro",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "REG-01",
+    "top_similarity": 0.6344,
+    "top_sources_returned": [
+      "REG-01",
+      "REG-01",
+      "REG-01",
+      "REG-01",
+      "REG-01"
+    ]
+  },
+  {
+    "fact_id": "F-064",
+    "topic": "Full withdrawal",
+    "expected_source_id": "REG-01",
+    "query_preview": "After a term starts, the last class cannot be dropped in the Scheduling Assistan",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "REG-01",
+    "top_similarity": 0.8315,
+    "top_sources_returned": [
+      "REG-01",
+      "REG-01",
+      "REG-01",
+      "REG-01",
+      "REG-02"
+    ]
+  },
+  {
+    "fact_id": "F-065",
+    "topic": "Repeats and GPA",
+    "expected_source_id": "REG-01",
+    "query_preview": "A non-repeatable course can be taken up to 3 times (a W counts as an attempt); a",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "REG-01",
+    "top_similarity": 0.5281,
+    "top_sources_returned": [
+      "REG-01",
+      "REG-01",
+      "REG-01",
+      "REG-01",
+      "REG-01"
+    ]
+  },
+  {
+    "fact_id": "F-066",
+    "topic": "Records",
+    "expected_source_id": "REG-01",
+    "query_preview": "Enrollment certification and transcripts go through National Student Clearinghou",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "REG-01",
+    "top_similarity": 0.6297,
+    "top_sources_returned": [
+      "REG-01",
+      "ISS-06",
+      "REG-01",
+      "REG-01",
+      "REG-01"
+    ]
+  },
+  {
+    "fact_id": "F-067",
+    "topic": "Registrar contact",
+    "expected_source_id": "REG-01",
+    "query_preview": "(219) 989-2210, registrar@pnw.edu. Enrollment Services Center: Lawshe Hall 130 (",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "REG-01",
+    "top_similarity": 0.6588,
+    "top_sources_returned": [
+      "REG-01",
+      "ISS-07",
+      "ISS-07",
+      "ISS-04",
+      "REG-01"
+    ]
+  },
+  {
+    "fact_id": "F-068",
+    "topic": "Refund rules",
+    "expected_source_id": "REG-02",
+    "query_preview": "Refund tiers (100%, 60%, 40%, 20%, none) and last day to drop depend on the part",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "REG-02",
+    "top_similarity": 0.7911,
+    "top_sources_returned": [
+      "REG-02",
+      "REG-02",
+      "REG-02",
+      "REG-02",
+      "REG-01"
+    ]
+  },
+  {
+    "fact_id": "F-069",
+    "topic": "Key dates",
+    "expected_source_id": "REG-04",
+    "query_preview": "Fall 2026 classes began Aug. 24; Labor Day Sept. 7; Fall Break Oct. 12-13; Fall ",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "REG-04",
+    "top_similarity": 0.7068,
+    "top_sources_returned": [
+      "REG-04",
+      "REG-02",
+      "REG-02",
+      "REG-02",
+      "REG-02"
+    ]
+  },
+  {
+    "fact_id": "F-070",
+    "topic": "Insurance plan",
+    "expected_source_id": "INS-03",
+    "query_preview": "PNW offers student health insurance through UnitedHealthcare Student Resources, ",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "INS-03",
+    "top_similarity": 0.8556,
+    "top_sources_returned": [
+      "INS-03",
+      "INS-03",
+      "INS-03",
+      "ISS-08",
+      "ISS-08"
+    ]
+  },
+  {
+    "fact_id": "F-071",
+    "topic": "Waiver windows",
+    "expected_source_id": "INS-01",
+    "query_preview": "F-1 students must be in the university plan or have an approved waiver. Fall wai",
+    "hit_at": {
+      "1": true,
+      "3": true,
+      "5": true
+    },
+    "top_result_source_id": "INS-01",
+    "top_similarity": 0.6844,
+    "top_sources_returned": [
+      "INS-01",
+      "ISS-08",
+      "ISS-08",
+      "INS-03",
+      "ISS-08"
+    ]
+  }
+]

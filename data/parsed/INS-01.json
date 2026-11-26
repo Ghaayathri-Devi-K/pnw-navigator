@@ -1,0 +1,20 @@
+{
+  "id": "INS-01",
+  "area": "Insurance (M2)",
+  "title": "Purdue University Northwest | Waiver",
+  "url": "https://pnw.myahpcare.com/waiver",
+  "tag": "insurance",
+  "format": "html",
+  "valid_for_term": "Each plan year",
+  "scraped_at": "2026-10-31T02:17:06.150905+00:00",
+  "raw_file": "data\\raw\\INS-01.html",
+  "char_count": 660,
+  "section_count": 1,
+  "text": "Frequently Asked Questions\nWaiver\nPurdue University requires all F-1 international students, to participate in a University-sponsored medical insurance plan or to obtain an approved waiver of coverage.\nYou will be able to apply for a waiver during the following periods:\nWaiver Period\nFall\n07/01/2026 at 8AM ET - 09/08/2026 at 5PM ET\nSpring/Summer\n12/01/2026 at 8AM ET - 02/02/2027 at 5PM ET\nBe sure to check the\nFAQs\nfor questions and answers around waivers.\nAHP Waiver System - Student Training Video\nStudent Quick Reference Flyer\nHome(Enroll)\nBenefits\nWaiver\nContact\nRegulatory Notices\n© 2026\nAcademic HealthPlans, Inc.\nAll Rights Reserved\nPrivacy Statement",
+  "sections": [
+    {
+      "heading": "Waiver",
+      "content": "Purdue University requires all F-1 international students, to participate in a University-sponsored medical insurance plan or to obtain an approved waiver of coverage.\nYou will be able to apply for a waiver during the following periods:\nWaiver Period | Fall | 07/01/2026 at 8AM ET - 09/08/2026 at 5PM ET | Spring/Summer | 12/01/2026 at 8AM ET - 02/02/2027 at 5PM ET\nWaiver Period\nFall07/01/2026 at 8AM ET - 09/08/2026 at 5PM ET\nSpring/Summer12/01/2026 at 8AM ET - 02/02/2027 at 5PM ET\nBe sure to check theFAQsfor questions and answers around waivers."
+    }
+  ]
+}

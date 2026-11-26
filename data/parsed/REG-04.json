@@ -1,0 +1,20 @@
+{
+  "id": "REG-04",
+  "area": "Registrar",
+  "title": "Events from November 13, 2026 – May 7, 2027 – College of Engineering and Sciences – Electrical and Computer Engineering",
+  "url": "https://www.pnw.edu/electrical-computer-engineering/events/tag/student-life/",
+  "tag": "registration",
+  "format": "html",
+  "valid_for_term": "Each term",
+  "scraped_at": "2026-10-31T02:16:58.323523+00:00",
+  "raw_file": "data\\raw\\REG-04.html",
+  "char_count": 92,
+  "section_count": 1,
+  "text": "The last day to drop a Full-Term Fall 2026 Course is Friday, November 13, 2025, at 4:30 p.m.",
+  "sections": [
+    {
+      "heading": "Events from November 13, 2026 – May 7, 2027 – College of Engineering and Sciences – Electrical and Computer Engineering",
+      "content": "The last day to drop a Full-Term Fall 2026 Course is Friday, November 13, 2025, at 4:30 p.m."
+    }
+  ]
+}

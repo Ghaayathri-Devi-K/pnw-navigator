@@ -1,0 +1,27 @@
+# Environment & Secrets
+.env
+*.env
+.neon
+
+# Python Virtual Environments & Packages
+.venv/
+venv/
+env/
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Execution Logs & Temporary Files
+*.log
+*.tmp
+temp/

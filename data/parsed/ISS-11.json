@@ -1,0 +1,40 @@
+{
+  "id": "ISS-11",
+  "area": "ISS (M2)",
+  "title": "Student Employment - International Student Services - Purdue University Northwest",
+  "url": "https://www.pnw.edu/international-student-services/student-employment/",
+  "tag": "immigration",
+  "format": "html",
+  "valid_for_term": "Yearly",
+  "scraped_at": "2026-10-31T02:17:04.153278+00:00",
+  "raw_file": "data\\raw\\ISS-11.html",
+  "char_count": 1555,
+  "section_count": 6,
+  "text": "Purdue University Northwest\n>\nInternational Student Services\n>\nStudent Employment\nStudent Employment\nFrom finding a job as a student to working in the U.S. after graduation, our office has the resources to help you!\nFind An On-Campus Job!\nOpportunities to work while you are a student at the University are plentiful and diverse. Positions range from research assistants to youth development professionals. No matter what your interests may be, there is a job for you on campus!\nSee On-Campus Job Openings\nStudent Academic Support Employment Opportunities\nConnect with a Current Student\nHave questions about the international student experience at Purdue University Northwest? Schedule an online meeting with a current student to learn more!\nSchedule a Meeting\nWorking After Graduation\nOptional Practical Training\nOptional practical training (OPT) is work authorization that allows international students to legally pursue employment in their field of study in the U.S. for 12 months after completing their degree.\nCareer Center\nThe Career Center assists Purdue University Northwest students and alumni in making connections with employers for a successful future.\nCurricular Practical Training\nCurricular Practical Training allows you to pursue employment authorization for “an integral part of an established curriculum [that] must be directly related to the international student’s major area of study.”\nImmigration Services\nWe support internationalization and global awareness through on-campus programming as well as welcoming international students.",
+  "sections": [
+    {
+      "heading": "Student Employment",
+      "content": "From finding a job as a student to working in the U.S. after graduation, our office has the resources to help you!\nFind An On-Campus Job!\nOpportunities to work while you are a student at the University are plentiful and diverse. Positions range from research assistants to youth development professionals. No matter what your interests may be, there is a job for you on campus!\nSee On-Campus Job Openings\nStudent Academic Support Employment Opportunities"
+    },
+    {
+      "heading": "Connect with a Current Student",
+      "content": "Have questions about the international student experience at Purdue University Northwest? Schedule an online meeting with a current student to learn more!"
+    },
+    {
+      "heading": "Optional Practical Training",
+      "content": "Optional practical training (OPT) is work authorization that allows international students to legally pursue employment in their field of study in the U.S. for 12 months after completing their degree."
+    },
+    {
+      "heading": "Career Center",
+      "content": "The Career Center assists Purdue University Northwest students and alumni in making connections with employers for a successful future."
+    },
+    {
+      "heading": "Curricular Practical Training",
+      "content": "Curricular Practical Training allows you to pursue employment authorization for “an integral part of an established curriculum [that] must be directly related to the international student’s major area of study.”"
+    },
+    {
+      "heading": "Immigration Services",
+      "content": "We support internationalization and global awareness through on-campus programming as well as welcoming international students."
+    }
+  ]
+}

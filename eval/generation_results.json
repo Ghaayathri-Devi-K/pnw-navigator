@@ -1,0 +1,1227 @@
+{
+  "metadata": {
+    "provider": "mock",
+    "model": null,
+    "top_k": 5,
+    "total_items": 61,
+    "total_time_seconds": 31.84,
+    "overall_accuracy": 0.77
+  },
+  "metrics": {
+    "answerable_citation_accuracy": 0.957,
+    "answerable_mean_groundedness": 0.899,
+    "adversarial_refusal_accuracy": 0.2
+  },
+  "detailed_results": [
+    {
+      "id": "F-001",
+      "type": "answerable",
+      "topic": "ISS contact",
+      "question": "Email iss@pnw.edu, phone (219) 989-2082. Walk-in advising in Lawshe 226, Monday-Friday 9:00 a.m.-4:00 p.m.; appointment advising also available.",
+      "ground_truth": "Email iss@pnw.edu, phone (219) 989-2082. Walk-in advising in Lawshe 226, Monday-Friday 9:00 a.m.-4:00 p.m.; appointment advising also available.",
+      "generated_answer": "iss@pnw.edu(219) 989-2082\nWalk-In Advising\nLawshe 226Monday through Friday 9:00 a.m. [ISS-01] Appointment Advising\nBy Appointment\nStudy in the States is for F1 and J1 Student Visa Holders and other working visa holders in the U.S. [ISS-01]",
+      "citations_detected": [
+        "ISS-01",
+        "ISS-01"
+      ],
+      "expected_source": "ISS-01",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": true,
+      "contact_provided": true,
+      "groundedness_score": 0.875,
+      "pass": true,
+      "latency_sec": 8.705
+    },
+    {
+      "id": "F-002",
+      "type": "answerable",
+      "topic": "ISS services",
+      "question": "ISS handles: guidance on maintaining status, extension of stay, transfers, on- and off-campus employment applications, reinstatement, travel endorsements, reduced course load authorization, change of status, and J-1 information.",
+      "ground_truth": "ISS handles: guidance on maintaining status, extension of stay, transfers, on- and off-campus employment applications, reinstatement, travel endorsements, reduced course load authorization, change of status, and J-1 information.",
+      "generated_answer": "institution\nEmployment applications, including on- and off-campus options\nReinstatement applications\nTravel endorsements\nReduced course load Authorization\nApplications to change non-immigrant status\nProduction of immigration documents for prospective undergraduate and graduate students\nExchange Visitor Program (J-1 student and scholar visa information)\nImportant Immigration Updates and News [ISS-01] Immigration-Related Services\nGuidance on maintaining good immigration Status\nExtension-of-stay applications; transfer to or from other U.S. [ISS-01]",
+      "citations_detected": [
+        "ISS-01",
+        "ISS-01"
+      ],
+      "expected_source": "ISS-01",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 1.0,
+      "pass": true,
+      "latency_sec": 0.368
+    },
+    {
+      "id": "F-003",
+      "type": "answerable",
+      "topic": "Mandatory check-in",
+      "question": "After arriving in the U.S., log in to MyISS and complete the mandatory international student check-in in the vMISCI section. Questions: Office of Immigration Services, Lawshe Hall 226, or iss@pnw.edu.",
+      "ground_truth": "After arriving in the U.S., log in to MyISS and complete the mandatory international student check-in in the vMISCI section. Questions: Office of Immigration Services, Lawshe Hall 226, or iss@pnw.edu.",
+      "generated_answer": "21, 2026] Once you arrive in the US, one of the first things you do is log in to your MyISS account and complete the mandatory check-in for international students in the vMISCI section. [ISS-02] If you have any questions, please contact the Office of Immigration Services in Lawshe Hall 226. [ISS-02]",
+      "citations_detected": [
+        "ISS-02",
+        "ISS-02"
+      ],
+      "expected_source": "ISS-02",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": true,
+      "contact_provided": false,
+      "groundedness_score": 1.0,
+      "pass": true,
+      "latency_sec": 0.376
+    },
+    {
+      "id": "F-004",
+      "type": "answerable",
+      "topic": "Mandatory check-in",
+      "question": "Bring: passport with the appropriate student/scholar visa; Certificate of Eligibility (I-20 or DS-2019); any other immigration documents (for example from Customs and Border Protection or previous schools).",
+      "ground_truth": "Bring: passport with the appropriate student/scholar visa; Certificate of Eligibility (I-20 or DS-2019); any other immigration documents (for example from Customs and Border Protection or previous schools).",
+      "generated_answer": "Please bring the following:\nYour passport, with the appropriate student/scholar visa\nYour Certificate of Eligibility (I-20 or DS-2019)\nAny other immigration-related documents that you have obtained, such as from the Customs and Border Patrol Agents or any previous schools you may have attended\nHave questions regarding your immigration documents or SEVIS check-in? [ISS-02] Step 1: Get the I-20 with the OPT request Collect the OPT request forms (4) from LAWS 226 Complete the four forms and then make an appointment to get the OPT I-20 Step 2: Collect the following documents in digital format I-20 with POST Completion OPT requested listed on second page (must request this by making an appointment with iss) Most recent Form I-94 Passport US government-issued photo ID (F-1 visa) A passport-style photograph (take a self-picture and adjust using software provided through the application) All previously used Student and Exchange Visitor Information System (SEVIS) receipt numbers Any I-20s with previously authorized CPT or OPT Any I-20s with previously used but [ISS-09]",
+      "citations_detected": [
+        "ISS-02",
+        "ISS-09"
+      ],
+      "expected_source": "ISS-02",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 1.0,
+      "pass": true,
+      "latency_sec": 0.388
+    },
+    {
+      "id": "F-005",
+      "type": "answerable",
+      "topic": "Orientation and airport pickup",
+      "question": "New International Student Orientation Aug. 21, 2026. Free pickup from Chicago O'Hare on Aug. 14, 18 and 20, 2026; request form due before Aug. 7; no pickup on other dates.",
+      "ground_truth": "New International Student Orientation Aug. 21, 2026. Free pickup from Chicago O'Hare on Aug. 14, 18 and 20, 2026; request form due before Aug. 7; no pickup on other dates.",
+      "generated_answer": "PNW will offer free airport pick-up service for new international students from Chicago O’Hare International Airport (ORD) to Purdue Northwest onJan. [ISS-02] [New International Student Orientation: Aug. [ISS-02]",
+      "citations_detected": [
+        "ISS-02",
+        "ISS-02"
+      ],
+      "expected_source": "ISS-02",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.904,
+      "pass": true,
+      "latency_sec": 0.374
+    },
+    {
+      "id": "F-006",
+      "type": "answerable",
+      "topic": "Housing recommendation",
+      "question": "ISS recommends University Village, the on-campus apartment-style complex on the Hammond campus.",
+      "ground_truth": "ISS recommends University Village, the on-campus apartment-style complex on the Hammond campus.",
+      "generated_answer": "Get ready for an exciting college experience on our vibrant Hammond campus, perfect for you and your new best friends! [HOU-04] Outdoor patios:Relax with friends or enjoy yard games\nWiFi and printers throughout the complex:Stay connected and print your work wherever you are. [HOU-04]",
+      "citations_detected": [
+        "HOU-04",
+        "HOU-04"
+      ],
+      "expected_source": "ISS-02",
+      "has_citations": true,
+      "citation_correct": false,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.781,
+      "pass": false,
+      "latency_sec": 0.38
+    },
+    {
+      "id": "F-007",
+      "type": "answerable",
+      "topic": "Health insurance rule",
+      "question": "All international undergraduate and graduate students who are registered, regardless of credit hours, or in an approved professional certificate program must enroll in the university health insurance plan unless they meet waiver criteria.",
+      "ground_truth": "All international undergraduate and graduate students who are registered, regardless of credit hours, or in an approved professional certificate program must enroll in the university health insurance plan unless they meet waiver criteria.",
+      "generated_answer": "21, 2026] Sign up for orientation\nHealth Insurance\nAll international undergraduate and graduate students who are registered, regardless of credit hours, or in an approved professional certificate program must enroll in the mandatory university health insurance plan unless they meet the criteria for a waiver. [ISS-02] Health Insurance\nAll international undergraduate and graduate students who are registered, regardless of credit hours, or in an approved professional certificate program must enroll in the mandatory university health insurance plan unless you meet the criteria for a waiver. [ISS-01]",
+      "citations_detected": [
+        "ISS-02",
+        "ISS-01"
+      ],
+      "expected_source": "ISS-01, ISS-02",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 1.0,
+      "pass": true,
+      "latency_sec": 0.406
+    },
+    {
+      "id": "F-010",
+      "type": "answerable",
+      "topic": "OPT basics",
+      "question": "OPT allows employment in the field of study for 12 months after the degree; the student remains in F-1 status. All OPT work must be in the field of study or it is unauthorized employment.",
+      "ground_truth": "OPT allows employment in the field of study for 12 months after the degree; the student remains in F-1 status. All OPT work must be in the field of study or it is unauthorized employment.",
+      "generated_answer": "OPT allows you to legally pursue employment in your field of study in the United States for 12 months after obtaining your degree. [ISS-09] Optional practical training (OPT) is work authorization that allows international students to legally pursue employment in their field of study in the U.S. [ISS-11]",
+      "citations_detected": [
+        "ISS-09",
+        "ISS-11"
+      ],
+      "expected_source": "ISS-09",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.962,
+      "pass": true,
+      "latency_sec": 0.387
+    },
+    {
+      "id": "F-011",
+      "type": "answerable",
+      "topic": "OPT window",
+      "question": "Apply no earlier than 90 days before graduation or no later than 60 days after. Applications not received by the end of the 60-day grace period will not be approved. Applying after the program end date shortens the available 12 months.",
+      "ground_truth": "Apply no earlier than 90 days before graduation or no later than 60 days after. Applications not received by the end of the 60-day grace period will not be approved. Applying after the program end date shortens the available 12 months.",
+      "generated_answer": "You may apply for OPT no earlier than 90 days before the end date of your I-20ORno later than 60 days following the end date. [ISS-09] If you apply after your program end date, you may not enjoy the full 12 months of employment eligibility. [ISS-09]",
+      "citations_detected": [
+        "ISS-09",
+        "ISS-09"
+      ],
+      "expected_source": "ISS-09",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.875,
+      "pass": true,
+      "latency_sec": 0.38
+    },
+    {
+      "id": "F-012",
+      "type": "answerable",
+      "topic": "OPT start date",
+      "question": "Start date can be the day after the program end date through the 60th day after. Example on the page: program ends May 20, start between May 21 and July 19.",
+      "ground_truth": "Start date can be the day after the program end date through the 60th day after. Example on the page: program ends May 20, start between May 21 and July 19.",
+      "generated_answer": "If you apply after your program end date, you may not enjoy the full 12 months of employment eligibility. [ISS-09] You may apply for OPT no earlier than 90 days before the end date of your I-20ORno later than 60 days following the end date. [ISS-09]",
+      "citations_detected": [
+        "ISS-09",
+        "ISS-09"
+      ],
+      "expected_source": "ISS-09",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.725,
+      "pass": true,
+      "latency_sec": 0.4
+    },
+    {
+      "id": "F-013",
+      "type": "answerable",
+      "topic": "OPT documents",
+      "question": "Packet from ISS (LAWS 226); typed I-765; job offer if available (not required to apply); $410 check or money order to DHS with SEVIS number in memo; two passport-style photos taken within 30 days; copies of prior I-20s, any prior EAD, passport photo page, latest visa, I-94; OPT Proposed Employment Request; OPT Certificate signed by academic advisor.",
+      "ground_truth": "Packet from ISS (LAWS 226); typed I-765; job offer if available (not required to apply); $410 check or money order to DHS with SEVIS number in memo; two passport-style photos taken within 30 days; copies of prior I-20s, any prior EAD, passport photo page, latest visa, I-94; OPT Proposed Employment Request; OPT Certificate signed by academic advisor.",
+      "generated_answer": "Step 1: Get the I-20 with the OPT request Collect the OPT request forms (4) from LAWS 226 Complete the four forms and then make an appointment to get the OPT I-20 Step 2: Collect the following documents in digital format I-20 with POST Completion OPT requested listed on second page (must request this by making an appointment with iss) Most recent Form I-94 Passport US government-issued photo ID (F-1 visa) A passport-style photograph (take a self-picture and adjust using software provided through the application) All previously used Student and Exchange Visitor Information System (SEVIS) receipt numbers Any I-20s with previously authorized CPT or OPT Any I-20s with previously used but [ISS-09] Please bring the following:\nYour passport, with the appropriate student/scholar visa\nYour Certificate of Eligibility (I-20 or DS-2019)\nAny other immigration-related documents that you have obtained, such as from the Customs and Border Patrol Agents or any previous schools you may have attended\nHave questions regarding your immigration documents or SEVIS check-in? [ISS-02]",
+      "citations_detected": [
+        "ISS-09",
+        "ISS-02"
+      ],
+      "expected_source": "ISS-09",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.765,
+      "pass": true,
+      "latency_sec": 0.409
+    },
+    {
+      "id": "F-014",
+      "type": "answerable",
+      "topic": "OPT ISS review",
+      "question": "ISS review takes no more than one week; ISS prepares the OPT recommendation I-20 (the student does not bring one); then the student mails the packet to USCIS.",
+      "ground_truth": "ISS review takes no more than one week; ISS prepares the OPT recommendation I-20 (the student does not bring one); then the student mails the packet to USCIS.",
+      "generated_answer": "Step 1: Get the I-20 with the OPT request Collect the OPT request forms (4) from LAWS 226 Complete the four forms and then make an appointment to get the OPT I-20 Step 2: Collect the following documents in digital format I-20 with POST Completion OPT requested listed on second page (must request this by making an appointment with iss) Most recent Form I-94 Passport US government-issued photo ID (F-1 visa) A passport-style photograph (take a self-picture and adjust using software provided through the application) All previously used Student and Exchange Visitor Information System (SEVIS) receipt numbers Any I-20s with previously authorized CPT or OPT Any I-20s with previously used but [ISS-09] I-20s with previously authorized CPT or OPT Any I-20s with previously used but different SEVIS ID numbers Step 3: Apply online Find theI-765 formand click on FILE ONLINE Create a USCIS account Select ( c ) (3) (B) Post completion OPT when selecting the form Complete the form and upload documents as directed Before submitting, review your application and make sure all documents are uploaded including the OPT I-20 Pay the Application fee of $470 by credit or debit card If desired, a separate premium processing fee of $1,685 (encouraged if you are applying late and/or have a job waiting for you following graduation) Keep a copy of the receipt [ISS-09]",
+      "citations_detected": [
+        "ISS-09",
+        "ISS-09"
+      ],
+      "expected_source": "ISS-09",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.714,
+      "pass": true,
+      "latency_sec": 0.381
+    },
+    {
+      "id": "F-015",
+      "type": "answerable",
+      "topic": "OPT work start",
+      "question": "Work may begin only after the I-765 is approved, the EAD card is in hand, and the start date on the card has arrived.",
+      "ground_truth": "Work may begin only after the I-765 is approved, the EAD card is in hand, and the start date on the card has arrived.",
+      "generated_answer": "Keep in mind that you can only begin working once your I-765 petition has been approved, you have the EAD card in your hand, and the start date on the card has arrived. [ISS-09] Sign up forUSPS Informed Deliveryto receive delivery status notifications AND\nUse the USPS tracking number to arrange for pickup of your EAD card at a USPS location of your choice on a convenient date and time by selecting ‘hold for pick up’ OR\nEnsure that you will be physically present at the address listed in your USCIS petition record on the delivery date of the card. [ISS-09]",
+      "citations_detected": [
+        "ISS-09",
+        "ISS-09"
+      ],
+      "expected_source": "ISS-09",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 1.0,
+      "pass": true,
+      "latency_sec": 0.366
+    },
+    {
+      "id": "F-016",
+      "type": "answerable",
+      "topic": "OPT processing",
+      "question": "USCIS review takes 90 to 150 days; contact ISS if 90 days pass without the EAD. A pending I-765 maintains status while waiting.",
+      "ground_truth": "USCIS review takes 90 to 150 days; contact ISS if 90 days pass without the EAD. A pending I-765 maintains status while waiting.",
+      "generated_answer": "If 90 days pass and your EAD card has not been issued, contact the ISS Office. [ISS-09] A pending petition I-765 maintains your immigration status while you wait for the EAD card. [ISS-09]",
+      "citations_detected": [
+        "ISS-09",
+        "ISS-09"
+      ],
+      "expected_source": "ISS-09",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.938,
+      "pass": true,
+      "latency_sec": 0.407
+    },
+    {
+      "id": "F-017",
+      "type": "answerable",
+      "topic": "Address and reporting",
+      "question": "Email iss@pnw.edu within 10 days of moving (immigration regulation), update USPS, and complete the USCIS online change of address (needs the I-797C receipt). During OPT, report address or employment changes within 10 days.",
+      "ground_truth": "Email iss@pnw.edu within 10 days of moving (immigration regulation), update USPS, and complete the USCIS online change of address (needs the I-797C receipt). During OPT, report address or employment changes within 10 days.",
+      "generated_answer": "Report your new address to our office within 10 days of moving. [ISS-09] Reporting your address within 10 days is an immigration regulation. [ISS-09]",
+      "citations_detected": [
+        "ISS-09",
+        "ISS-09"
+      ],
+      "expected_source": "ISS-09",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.776,
+      "pass": true,
+      "latency_sec": 0.394
+    },
+    {
+      "id": "F-018",
+      "type": "answerable",
+      "topic": "OPT unemployment",
+      "question": "During the 12 months, up to 90 days of unemployment is allowed; more than 90 days is treated as out of status. At least 21 hours per week in a field position counts as full-time during OPT.",
+      "ground_truth": "During the 12 months, up to 90 days of unemployment is allowed; more than 90 days is treated as out of status. At least 21 hours per week in a field position counts as full-time during OPT.",
+      "generated_answer": "Working at least 21 hours per week in a position in your field is considered full-time during OPT. [ISS-09] If you accrue more than 90 days of unemployment, USCIS will consider you out of status. [ISS-09]",
+      "citations_detected": [
+        "ISS-09",
+        "ISS-09"
+      ],
+      "expected_source": "ISS-09",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 1.0,
+      "pass": true,
+      "latency_sec": 0.396
+    },
+    {
+      "id": "F-019",
+      "type": "answerable",
+      "topic": "OPT other rules",
+      "question": "OPT cannot be canceled once the EAD is approved. 12 months of OPT is available after each higher degree level. OPT ends if the student departs without the EAD and a confirmation-of-employment or job-offer letter. Travel needs unexpired F-1 visa, I-20 endorsed for travel within six months, unexpired EAD, and employment letter.",
+      "ground_truth": "OPT cannot be canceled once the EAD is approved. 12 months of OPT is available after each higher degree level. OPT ends if the student departs without the EAD and a confirmation-of-employment or job-offer letter. Travel needs unexpired F-1 visa, I-20 endorsed for travel within six months, unexpired EAD, and employment letter.",
+      "generated_answer": "Yes, you must provide your unexpired F-1 visa, your I-20 endorsed for travel by an advisor within the past six months, your unexpired EAD, and your confirmation of continuing employment letter or your job offer letter. [ISS-09] No, your OPT ends if you have been approved but depart the country without the EADanda confirmation of employment letter or a job offer letter. [ISS-09]",
+      "citations_detected": [
+        "ISS-09",
+        "ISS-09"
+      ],
+      "expected_source": "ISS-09",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.89,
+      "pass": true,
+      "latency_sec": 0.396
+    },
+    {
+      "id": "F-020",
+      "type": "answerable",
+      "topic": "STEM OPT",
+      "question": "STEM OPT Extension gives two additional years for qualifying STEM fields. Requires an E-Verify employer and a personalized training plan. If eligible, apply 90 days before the first 12 months end.",
+      "ground_truth": "STEM OPT Extension gives two additional years for qualifying STEM fields. Requires an E-Verify employer and a personalized training plan. If eligible, apply 90 days before the first 12 months end.",
+      "generated_answer": "STEM OPT Extension gives international students majoring in qualifying science, technology, engineering and mathematics fields of study an opportunity to apply for two years of additional work authorization. [ISS-09] If eligible, you may apply 90 days before your first 12 months of OPT end. [ISS-09]",
+      "citations_detected": [
+        "ISS-09",
+        "ISS-09"
+      ],
+      "expected_source": "ISS-09",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 1.0,
+      "pass": true,
+      "latency_sec": 0.367
+    },
+    {
+      "id": "F-030",
+      "type": "answerable",
+      "topic": "CPT eligibility",
+      "question": "Must: complete one academic year of full-time enrollment (fall and spring; summer does not count); be a degree-seeking F-1 student; be in good academic standing; enroll in the department's designated internship course; keep medical and auto insurance (if licensed to drive). Programs requiring an earlier internship: see an advisor in LAWS 226.",
+      "ground_truth": "Must: complete one academic year of full-time enrollment (fall and spring; summer does not count); be a degree-seeking F-1 student; be in good academic standing; enroll in the department's designated internship course; keep medical and auto insurance (if licensed to drive). Programs requiring an earlier internship: see an advisor in LAWS 226.",
+      "generated_answer": "Example: graduate professional practice for technology students or engineering internship for engineering students\nBe continually enrolled in adequate medical and auto insurance (if you have a driver’s license)\nIf your degree program requires an internship before you have met the academic year requirement, please see an immigration advisor in LAWS 226. [ISS-10] Eligibility\nTo be eligible for Curricular Practical Training (CPT), you must:\nHave completed at least one academic year of full-time enrollment (for both a fall and a spring semester) in your current degree program. [ISS-10]",
+      "citations_detected": [
+        "ISS-10",
+        "ISS-10"
+      ],
+      "expected_source": "ISS-10",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.841,
+      "pass": true,
+      "latency_sec": 0.385
+    },
+    {
+      "id": "F-031",
+      "type": "answerable",
+      "topic": "CPT documents",
+      "question": "Valid passport; CPT application completed by advisor/coordinator/department head/dean/co-op coordinator; job offer letter on letterhead with exact weekly hours, address, dates, title and job description; statement of explanation tying the internship to the program; graduate students add plan of study.",
+      "ground_truth": "Valid passport; CPT application completed by advisor/coordinator/department head/dean/co-op coordinator; job offer letter on letterhead with exact weekly hours, address, dates, title and job description; statement of explanation tying the internship to the program; graduate students add plan of study.",
+      "generated_answer": "Application Procedures Provide a copy of the following documents with your CPT application: Valid passport Curricular Practical Training application form completed by the academic advisor, graduate coordinator, department head, dean or co-op coordinator (for undergraduate students in the co-op program) A job offer from your prospective employer on company letterhead (including company’s full name and address) with the body of the letter indicating:The EXACT number of work hours per weekpart time (up to 20 hours per week)full time (more than 20 hours per week)the location (street address) where you will complete the work, telephone and email, if different from the company’s headquartersthe [ISS-10] The EXACT number of work hours per week\npart time (up to 20 hours per week)\nfull time (more than 20 hours per week)\nthe location (street address) where you will complete the work, telephone and email, if different from the company’s headquarters\nthe beginning and ending dates of employment\nthe title of your position and the job description for your CPT experience; the description should state how your duties will supplement knowledge you have gained or will gain in courses so that your academic department can approve this as an academically appropriate experience for you to accept. [ISS-10]",
+      "citations_detected": [
+        "ISS-10",
+        "ISS-10"
+      ],
+      "expected_source": "ISS-10",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 1.0,
+      "pass": true,
+      "latency_sec": 0.385
+    },
+    {
+      "id": "F-032",
+      "type": "answerable",
+      "topic": "CPT enrollment",
+      "question": "Part-time CPT is up to 20 hours per week and full-time is more than 20. During CPT, enroll in at least one credit hour of the internship course. Full-time CPT: no more than three credit hours of other coursework plus the one CPT credit.",
+      "ground_truth": "Part-time CPT is up to 20 hours per week and full-time is more than 20. During CPT, enroll in at least one credit hour of the internship course. Full-time CPT: no more than three credit hours of other coursework plus the one CPT credit.",
+      "generated_answer": "Register for the CPT credit before beginning CPTFull time CPT: Enrolling in no more than three credit hours coursework along with one credit hour for the CPT course that will be listed on the student transcriptBe continually enrolled in adequate medical and auto insurance (if you have a driver’s license)\nPart-time CPT: A full course of study is required. [ISS-10] Register for the CPT credit before beginning CPT\nFull time CPT: Enrolling in no more than three credit hours coursework along with one credit hour for the CPT course that will be listed on the student transcript\nBe continually enrolled in adequate medical and auto insurance (if you have a driver’s license)\nAuthorization By ISS\nISS authorizes CPT after verification that a student meets the eligibility requirements for CPT, has an appropriate job offer and has enrolled in a class requiring employment. [ISS-10]",
+      "citations_detected": [
+        "ISS-10",
+        "ISS-10"
+      ],
+      "expected_source": "ISS-10",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.958,
+      "pass": true,
+      "latency_sec": 0.376
+    },
+    {
+      "id": "F-033",
+      "type": "answerable",
+      "topic": "CPT authorization",
+      "question": "ISS records CPT on page 2 of the I-20; no EAD is needed. Authorization is for a specific employer, location and period; request changes two weeks before extending the end date.",
+      "ground_truth": "ISS records CPT on page 2 of the I-20; no EAD is needed. Authorization is for a specific employer, location and period; request changes two weeks before extending the end date.",
+      "generated_answer": "You must request approval for any of the following changes two weeks before extending your current CPT end date: working at a different location or for a new employer. [ISS-10] Requesting Changes After CPT Authorization\nCPT is approved for a specific employer, location of employment and time period. [ISS-10]",
+      "citations_detected": [
+        "ISS-10",
+        "ISS-10"
+      ],
+      "expected_source": "ISS-10",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 1.0,
+      "pass": true,
+      "latency_sec": 0.414
+    },
+    {
+      "id": "F-034",
+      "type": "answerable",
+      "topic": "CPT and OPT",
+      "question": "365 days (12 months) or more of full-time CPT makes a student ineligible for OPT.",
+      "ground_truth": "365 days (12 months) or more of full-time CPT makes a student ineligible for OPT.",
+      "generated_answer": "Effect on Optional Practical Training (OPT)\nPlease note that F-1 students with 365 days (12 months) or more full-time CPT are not eligible for Optional Practical Training (OPT). [ISS-10] If I work on OPT for a year after I finish my bachelor’s or master’s degree and then I go back for the next higher level degree, will I get 12 more months of OPT when I finish it? [ISS-09]",
+      "citations_detected": [
+        "ISS-10",
+        "ISS-09"
+      ],
+      "expected_source": "ISS-10",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.969,
+      "pass": true,
+      "latency_sec": 0.38
+    },
+    {
+      "id": "F-040",
+      "type": "answerable",
+      "topic": "Housing application",
+      "question": "The application is only available in the myPNW portal (Purdue login required). Four steps: submit application; pay one-time non-refundable $20 application fee (not charged again if paid before); pay $200 refundable housing deposit; upload full immunization list to Med+Proctor (no paper copies).",
+      "ground_truth": "The application is only available in the myPNW portal (Purdue login required). Four steps: submit application; pay one-time non-refundable $20 application fee (not charged again if paid before); pay $200 refundable housing deposit; upload full immunization list to Med+Proctor (no paper copies).",
+      "generated_answer": "See Required Immunizations\nPlease note:All immunizations must be uploaded to Med+Proctor.We will not accept paper copies of immunization records, DO NOT send them in the mail or via email. [HOU-01] Explore PNW Housing\nImmunization Information: International Students in PNW Housing\nAs an incoming international student, I appreciated the chance to hear directly from someone who had already gone through the same transition.Parikshith Saraswathi, M.S. [ISS-02]",
+      "citations_detected": [
+        "HOU-01",
+        "ISS-02"
+      ],
+      "expected_source": "HOU-01",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.673,
+      "pass": true,
+      "latency_sec": 0.425
+    },
+    {
+      "id": "F-041",
+      "type": "answerable",
+      "topic": "Housing deposit",
+      "question": "The $200 deposit is refundable until the housing contract is signed, covers possible damages, and does not guarantee a room. Assignments are first come, first served.",
+      "ground_truth": "The $200 deposit is refundable until the housing contract is signed, covers possible damages, and does not guarantee a room. Assignments are first come, first served.",
+      "generated_answer": "Submitting a completed Housing Contract and a $200 housing deposit does not guarantee a room assignment. [HOU-01] View Paying Online Instructions\n*The housing deposit is refundable until the Housing Contract is signed by the student submitting the housing application. [HOU-01]",
+      "citations_detected": [
+        "HOU-01",
+        "HOU-01"
+      ],
+      "expected_source": "HOU-01, HOU-03",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.922,
+      "pass": true,
+      "latency_sec": 0.433
+    },
+    {
+      "id": "F-042",
+      "type": "answerable",
+      "topic": "Application complete",
+      "question": "Complete means: online application, application fee, deposit, and immunizations verified by MedProctor. Assignment order follows the date and time the application was completed.",
+      "ground_truth": "Complete means: online application, application fee, deposit, and immunizations verified by MedProctor. Assignment order follows the date and time the application was completed.",
+      "generated_answer": "This includes:\nHousing Application (online)\nHousing Application Fee\nHousing Deposit\nCompleted Immunizations (verified by MedProctor)\nOnce these items are all complete, you will be notified via email. [HOU-03] Date/time of your completed Housing Application Items(see “When is my application considered complete?” above for more information)\nStudents must beregistered as full-time (12 hours for undergraduate students; 8 hours for graduate students)by the dates indicated in the Housing Contract. [HOU-03]",
+      "citations_detected": [
+        "HOU-03",
+        "HOU-03"
+      ],
+      "expected_source": "HOU-03",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 1.0,
+      "pass": true,
+      "latency_sec": 0.383
+    },
+    {
+      "id": "F-043",
+      "type": "answerable",
+      "topic": "Housing and enrollment",
+      "question": "Residents must register full-time (12 hours undergraduate, 8 hours graduate) by the dates in the housing contract or risk losing the assignment and moving to the waitlist.",
+      "ground_truth": "Residents must register full-time (12 hours undergraduate, 8 hours graduate) by the dates in the housing contract or risk losing the assignment and moving to the waitlist.",
+      "generated_answer": "Date/time of your completed Housing Application Items(see “When is my application considered complete?” above for more information)\nStudents must beregistered as full-time (12 hours for undergraduate students; 8 hours for graduate students)by the dates indicated in the Housing Contract. [HOU-03] If this date is not honored, the students risk losing their assignment and will be placed on the waitlist. [HOU-03]",
+      "citations_detected": [
+        "HOU-03",
+        "HOU-03"
+      ],
+      "expected_source": "HOU-03",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 1.0,
+      "pass": true,
+      "latency_sec": 0.342
+    },
+    {
+      "id": "F-044",
+      "type": "answerable",
+      "topic": "Housing deadlines",
+      "question": "Academic Year 25-26: application opens Jan. 1, 2026 for new/previous students and Jan. 26, 2026 for returning residents. Priority deadline May 31, 2026 (new) and Feb. 13, 2026 (returning).",
+      "ground_truth": "Academic Year 25-26: application opens Jan. 1, 2026 for new/previous students and Jan. 26, 2026 for returning residents. Priority deadline May 31, 2026 (new) and Feb. 13, 2026 (returning).",
+      "generated_answer": "Housing Application Available for New or Previous PNW Students (those NOT currently living on campus) | January 1, 2027 | Housing Application Available for returning UV Residents (those currently living on campus- see email for specific dates) | January 25, 2027 | New PNW Student Priority Housing Application Deadline (all items completed) | May 31, 2027 | Returning UV Resident Priority Housing Application Deadline (all items completed) | February 12, 2027 Housing Application Available for New or Previous PNW Students (those NOT currently living on campus)January 1, 2027 Housing Application Available for returning UV Residents (those currently living on campus- see email for specific [HOU-01] UV Residents (those currently living on campus- see email for specific dates)January 25, 2027 New PNW Student Priority Housing Application Deadline (all items completed)May 31, 2027 Returning UV Resident Priority Housing Application Deadline (all items completed)February 12, 2027 [HOU-01]",
+      "citations_detected": [
+        "HOU-01",
+        "HOU-01"
+      ],
+      "expected_source": "HOU-01",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 1.0,
+      "pass": true,
+      "latency_sec": 0.36
+    },
+    {
+      "id": "F-045",
+      "type": "answerable",
+      "topic": "Contract types",
+      "question": "Academic contract (Aug-May, available January); Spring-only (Jan-May, available late October); Summer (May-Aug, available April). Contracts include break periods.",
+      "ground_truth": "Academic contract (Aug-May, available January); Spring-only (Jan-May, available late October); Summer (May-Aug, available April). Contracts include break periods.",
+      "generated_answer": "Contract available in Late October\nThis spring-only housing contract runs from January to May, including break periods—no need to move out. [HOU-01] Contract available in January\nThis contract provides housing for the full academic year, from August to May, including break periods—no need to move out. [HOU-01]",
+      "citations_detected": [
+        "HOU-01",
+        "HOU-01"
+      ],
+      "expected_source": "HOU-01",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 1.0,
+      "pass": true,
+      "latency_sec": 0.416
+    },
+    {
+      "id": "F-046",
+      "type": "answerable",
+      "topic": "Housing rates",
+      "question": "2025-26: four-bedroom suite $6,873 ($3,436.50/semester); two-bedroom suite $8,000 ($4,000); four-bedroom double $4,808 ($2,404); four-bedroom single $6,181 ($3,090.50). Plus $6/semester organization dues. Summer-only: $2,063 (four-bedroom), $2,400 (two-bedroom). Two-bedrooms only in Griffin Hall.",
+      "ground_truth": "2025-26: four-bedroom suite $6,873 ($3,436.50/semester); two-bedroom suite $8,000 ($4,000); four-bedroom double $4,808 ($2,404); four-bedroom single $6,181 ($3,090.50). Plus $6/semester organization dues. Summer-only: $2,063 (four-bedroom), $2,400 (two-bedroom). Two-bedrooms only in Griffin Hall.",
+      "generated_answer": "Location | Room Type | 2027-2028 Room Rate | Cost Applied Each Semester | Griffin & Peregrine Halls | Four-Person Suite - Single Room | $7,895 | $3,947.50 | Two-Person Suite - Single Room | $9,189 | $4,594.50 | Six-Person Suite - Single Room | $7,100 | $3,550 | Six-Person Suite - Double Room | $5,523 | $2,761.50 | Calumet Hall | Single Room | $8,392 | $4,196 | Double Room | $6,556 | $3,278 LocationRoom Type2027-2028 Room RateCost Applied Each Semester Griffin & Peregrine HallsFour-Person Suite - Single Room$7,895$3,947.50 Two-Person Suite - Single Room$9,189$4,594.50 Six-Person Suite - Single Room$7,100$3,550 Six-Person Suite - Double Room$5,523$2,761.50 Calumet HallSingle Room$8,392$4,196 [HOU-02] Bedroom:Shared with One Student\nBathroom:Private (Shared with Floor)\nKitchen and Common Area:Communal with Building\nLocation:Calumet Hall\nTwo-Person Suite\n$8,760 – 2026-27 Rate\nBedroom:Private\nBathroom:Shared with One Student\nKitchen and Common Area:Shared with One Student\nLocation:Griffin Hall\nTwo-person suites are offered only in Griffin Hall. [HOU-02]",
+      "citations_detected": [
+        "HOU-02",
+        "HOU-02"
+      ],
+      "expected_source": "HOU-02",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.982,
+      "pass": true,
+      "latency_sec": 0.425
+    },
+    {
+      "id": "F-047",
+      "type": "answerable",
+      "topic": "Housing payment",
+      "question": "Options: financial aid; online via myPNW; in person at the Enrollment Services Center (Lawshe Hall); payment plan; international students may wire transfer (email bursar@pnw.edu, subject \"Request for Wire Transfer Information\"). Move-in requires balance paid in full or a payment plan.",
+      "ground_truth": "Options: financial aid; online via myPNW; in person at the Enrollment Services Center (Lawshe Hall); payment plan; international students may wire transfer (email bursar@pnw.edu, subject \"Request for Wire Transfer Information\"). Move-in requires balance paid in full or a payment plan.",
+      "generated_answer": "International Students\nInternational students can pay for housing costs via an electronic transfer of funds or ‘wire transfer.’ To request information regarding wire transfers, please email the Bursar’s Office atbursar@pnw.eduwith a subject line entitled “Request for Wire Transfer Information.”\nHow can I pay for housing? [HOU-03] Please read all the options below so you know what is available to you!You will not be able to move in until you have paid your balance in full or have set up a payment plan. [HOU-03]",
+      "citations_detected": [
+        "HOU-03",
+        "HOU-03"
+      ],
+      "expected_source": "HOU-02, HOU-03",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.962,
+      "pass": true,
+      "latency_sec": 0.343
+    },
+    {
+      "id": "F-048",
+      "type": "answerable",
+      "topic": "Housing cancellation",
+      "question": "Submit the cancellation request form; review takes up to 10 business days; cancelling after the contract term starts carries a significant financial penalty; improper checkout fee is $50.",
+      "ground_truth": "Submit the cancellation request form; review takes up to 10 business days; cancelling after the contract term starts carries a significant financial penalty; improper checkout fee is $50.",
+      "generated_answer": "If you move out without completing this process, you will continue to be charged housing fees until Housing staff find your room empty (which will result in a $50.00 Improper checkout fee). [HOU-03] Effective Dates | Termination Fee | Contract Owed (Cancellation Fee ) | Prior to March 31, 2026 | $0 | $0 | April 1- April 30, 2026 | $200 | $0 | May 1- May 31, 2026 | $300 | $0 | June 1- June 30, 2026 | $400 | $0 | July 1- August 22, 2026 (includes no-show) | $400 | 25% of contract + daily rate when room was occupied (when applicable) Effective DatesTermination FeeContract Owed (Cancellation Fee ) Prior to March 31, 2026$0$0 April 1- April 30, 2026$200$0 May 1- May 31, 2026$300$0 June 1- June 30, 2026$400$0 July 1- August 22, 2026 (includes no-show)$40025% of contract + daily rate when room was occupied (when applicable) Effective Dates | Termination Fee | Contract Owed (Cancellation Fee) [HOU-02]",
+      "citations_detected": [
+        "HOU-03",
+        "HOU-02"
+      ],
+      "expected_source": "HOU-03",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.658,
+      "pass": true,
+      "latency_sec": 0.383
+    },
+    {
+      "id": "F-049",
+      "type": "answerable",
+      "topic": "Roommates and room changes",
+      "question": "Roommate requests are not guaranteed and must be accepted by both students. There is no room-change request process; students arrange swaps and notify housing.",
+      "ground_truth": "Roommate requests are not guaranteed and must be accepted by both students. There is no room-change request process; students arrange swaps and notify housing.",
+      "generated_answer": "Due to the demand for housing we do not have a room change request. [HOU-03] We ask that students work together to do room swaps and notify housing if they choose to do this. [HOU-03]",
+      "citations_detected": [
+        "HOU-03",
+        "HOU-03"
+      ],
+      "expected_source": "HOU-03",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": true,
+      "contact_provided": false,
+      "groundedness_score": 0.828,
+      "pass": true,
+      "latency_sec": 0.364
+    },
+    {
+      "id": "F-050",
+      "type": "answerable",
+      "topic": "Housing contact and mail",
+      "question": "Contact housing@pnw.edu. Mail to: Full Name, 2440 173rd Street, Griffin Hall, Apt #, Hammond, IN 46323. Room Condition Report opens 72 hours after check-in.",
+      "ground_truth": "Contact housing@pnw.edu. Mail to: Full Name, 2440 173rd Street, Griffin Hall, Apt #, Hammond, IN 46323. Room Condition Report opens 72 hours after check-in.",
+      "generated_answer": "If you need information that is not below, please contact us athousing@pnw.edu. [HOU-03] Griffin and Peregrine Halls offer in-suite kitchens, while Calumet Hall has a shared kitchen on the first floor. [HOU-04]",
+      "citations_detected": [
+        "HOU-03",
+        "HOU-04"
+      ],
+      "expected_source": "HOU-03",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": true,
+      "contact_provided": true,
+      "groundedness_score": 0.641,
+      "pass": true,
+      "latency_sec": 0.35
+    },
+    {
+      "id": "F-060",
+      "type": "answerable",
+      "topic": "How to register",
+      "question": "Register in the Student Scheduling Assistant widget in MyPNW. Taking 15 credits per semester is encouraged. Class schedules are usually published two weeks before registration opens.",
+      "ground_truth": "Register in the Student Scheduling Assistant widget in MyPNW. Taking 15 credits per semester is encouraged. Class schedules are usually published two weeks before registration opens.",
+      "generated_answer": "View the refund schedule and last days to drop for the current term\nHowever, if your course registration is for a future term that has not yet begun, you may drop all your classes using the Student Scheduling Assistant widget in myPNW. [REG-01] How do I register for classes in Student Scheduling Assistant? [REG-01]",
+      "citations_detected": [
+        "REG-01",
+        "REG-01"
+      ],
+      "expected_source": "REG-01",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.792,
+      "pass": true,
+      "latency_sec": 0.398
+    },
+    {
+      "id": "F-061",
+      "type": "answerable",
+      "topic": "Priority registration",
+      "question": "Applies to fall and spring only. Order: graduate students, seniors, Honors College, veterans, student athletes and select groups first; then juniors, sophomores, freshmen; then all students. Time ticket is in the Academic Profile widget in MyPNW.",
+      "ground_truth": "Applies to fall and spring only. Order: graduate students, seniors, Honors College, veterans, student athletes and select groups first; then juniors, sophomores, freshmen; then all students. Time ticket is in the Academic Profile widget in MyPNW.",
+      "generated_answer": "Priority Registration generally follows this order:\nFirst group – Graduate Students, Undergraduate Seniors, Honors College Students, Veterans, Student Athletes, and other select groups\nSecond group – Undergraduate Juniors\nThird group – Undergraduate Sophomores\nFourth group – Undergraduate Freshmen\nFinal group – All Students\nIf you need a PIN to register for classes, you can get it from your academic advisor. [REG-01] Registration Time Ticket:If you are trying to register for a Fall or Spring semester during Priority Registration before your assigned time, you will receive this error. [REG-01]",
+      "citations_detected": [
+        "REG-01",
+        "REG-01"
+      ],
+      "expected_source": "REG-01",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 1.0,
+      "pass": true,
+      "latency_sec": 0.376
+    },
+    {
+      "id": "F-062",
+      "type": "answerable",
+      "topic": "Registration blockers",
+      "question": "Holds (financial or conduct) can block registration; closed classes may have a wait-list (available until the Thursday before classes start in fall/spring; automatic enrollment when a seat opens); prerequisites and major restrictions need department approval; time conflicts are blocked.",
+      "ground_truth": "Holds (financial or conduct) can block registration; closed classes may have a wait-list (available until the Thursday before classes start in fall/spring; automatic enrollment when a seat opens); prerequisites and major restrictions need department approval; time conflicts are blocked.",
+      "generated_answer": "For fall and spring semesters, the wait-list option is available until the Thursday before the start of classes. [REG-01] Watch the Wait List for a Full Class Video\nNote: If you have any registration restrictions (like prerequisites), be sure to request departmental approval as you would for an available course. [REG-01]",
+      "citations_detected": [
+        "REG-01",
+        "REG-01"
+      ],
+      "expected_source": "REG-01",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.863,
+      "pass": true,
+      "latency_sec": 0.385
+    },
+    {
+      "id": "F-063",
+      "type": "answerable",
+      "topic": "Add / drop",
+      "question": "Add or drop in the Scheduling Assistant. Adding after the first week needs approval. Before dropping, talk to the academic advisor and financial aid, and check refund deadlines.",
+      "ground_truth": "Add or drop in the Scheduling Assistant. Adding after the first week needs approval. Before dropping, talk to the academic advisor and financial aid, and check refund deadlines.",
+      "generated_answer": "View the refund schedule and last days to drop for the current term\nHowever, if your course registration is for a future term that has not yet begun, you may drop all your classes using the Student Scheduling Assistant widget in myPNW. [REG-01] Please note that if you are adding a course after the first week of classes, you will need to request approval. [REG-01]",
+      "citations_detected": [
+        "REG-01",
+        "REG-01"
+      ],
+      "expected_source": "REG-01",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.875,
+      "pass": true,
+      "latency_sec": 0.369
+    },
+    {
+      "id": "F-064",
+      "type": "answerable",
+      "topic": "Full withdrawal",
+      "question": "After a term starts, the last class cannot be dropped in the Scheduling Assistant. Use myPNW > Registering for Classes > \"Full Withdrawal from Current Academic Semester (Drop All Classes)\". Enrollment changes may change financial aid: finaid@pnw.edu, (219) 989-2301.",
+      "ground_truth": "After a term starts, the last class cannot be dropped in the Scheduling Assistant. Use myPNW > Registering for Classes > \"Full Withdrawal from Current Academic Semester (Drop All Classes)\". Enrollment changes may change financial aid: finaid@pnw.edu, (219) 989-2301.",
+      "generated_answer": "Instead, go to the Registering for Classes page under the Registration and Records area in the left pane navigation of myPNW:\nSelect “Full Withdrawal from Current Academic Semester (Drop All Classes)”. [REG-01] View the refund schedule and last days to drop for the current term\nHowever, if your course registration is for a future term that has not yet begun, you may drop all your classes using the Student Scheduling Assistant widget in myPNW. [REG-01]",
+      "citations_detected": [
+        "REG-01",
+        "REG-01"
+      ],
+      "expected_source": "REG-01",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.938,
+      "pass": true,
+      "latency_sec": 0.409
+    },
+    {
+      "id": "F-065",
+      "type": "answerable",
+      "topic": "Repeats and GPA",
+      "question": "A non-repeatable course can be taken up to 3 times (a W counts as an attempt); a 4th needs approval. Only the most recent grade counts in GPA. Good standing requires a 2.0 semester and cumulative GPA.",
+      "ground_truth": "A non-repeatable course can be taken up to 3 times (a W counts as an attempt); a 4th needs approval. Only the most recent grade counts in GPA. Good standing requires a 2.0 semester and cumulative GPA.",
+      "generated_answer": "Repeating a Course After 3 Attempts:Students are permitted to enroll in a non-repeatable course up to 3 times (Withdrawals – W’s – count as an attempt). [REG-01] 4 credits × 2.3 points = 9.2 grade points\nGPA Calculation: 21.2 total semester grade points / 7 credit hours = 3.03 Semester GPA\nCumulative Grade Point Average\nTo determine your cumulative grade point average, you will need to determine the number of total grade points you have earned and the total credit hours you have attempted beginning with your first semester of attendance. [REG-01]",
+      "citations_detected": [
+        "REG-01",
+        "REG-01"
+      ],
+      "expected_source": "REG-01",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.809,
+      "pass": true,
+      "latency_sec": 0.423
+    },
+    {
+      "id": "F-066",
+      "type": "answerable",
+      "topic": "Records",
+      "question": "Enrollment certification and transcripts go through National Student Clearinghouse (transcript fee; no in-person requests). Apply to Graduate in the myPNW Task area by the published deadline, even if not walking at commencement (May, Hammond).",
+      "ground_truth": "Enrollment certification and transcripts go through National Student Clearinghouse (transcript fee; no in-person requests). Apply to Graduate in the myPNW Task area by the published deadline, even if not walking at commencement (May, Hammond).",
+      "generated_answer": "The Application to Graduate must be completed by the published deadline whether or not you plan on participating in commencement. [REG-01] View the refund schedule and last days to drop for the current term\nHowever, if your course registration is for a future term that has not yet begun, you may drop all your classes using the Student Scheduling Assistant widget in myPNW. [REG-01]",
+      "citations_detected": [
+        "REG-01",
+        "REG-01"
+      ],
+      "expected_source": "REG-01",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.714,
+      "pass": true,
+      "latency_sec": 0.392
+    },
+    {
+      "id": "F-067",
+      "type": "answerable",
+      "topic": "Registrar contact",
+      "question": "(219) 989-2210, registrar@pnw.edu. Enrollment Services Center: Lawshe Hall 130 (Hammond), Schwarz Hall 120 (Westville).",
+      "ground_truth": "(219) 989-2210, registrar@pnw.edu. Enrollment Services Center: Lawshe Hall 130 (Hammond), Schwarz Hall 120 (Westville).",
+      "generated_answer": "When available, diplomas may be picked up at the Registrar’s Office of your home campus – Hammond in Lawshe Hall, Room 130 or Westville in Schwarz Hall, Room 120. [REG-01] Dworkin Student Services and Activities Complex (DSAC) 10121401 US-421Westville, IN 46391\nWe can be reached atorientation@pnw.eduor (219) 989-5450. [ISS-07]",
+      "citations_detected": [
+        "REG-01",
+        "ISS-07"
+      ],
+      "expected_source": "REG-01",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": true,
+      "groundedness_score": 1.0,
+      "pass": true,
+      "latency_sec": 0.384
+    },
+    {
+      "id": "F-068",
+      "type": "answerable",
+      "topic": "Refund rules",
+      "question": "Refund tiers (100%, 60%, 40%, 20%, none) and last day to drop depend on the part of term. If recalculated liable credit hours fall in the banded tuition rate, no refund is calculated. Page updated 5-12-2026 and showed Summer 2026 only; later terms listed as TBA.",
+      "ground_truth": "Refund tiers (100%, 60%, 40%, 20%, none) and last day to drop depend on the part of term. If recalculated liable credit hours fall in the banded tuition rate, no refund is calculated. Page updated 5-12-2026 and showed Summer 2026 only; later terms listed as TBA.",
+      "generated_answer": "If you drop one or more classes during the refund period, your fees will be recalculated based on your liable credit hours.If your recalculated total liable credit hours are in the banded tuition rate, no refund is calculated. [REG-02] Begin 8/24/2026 to 8/28/2026Late Registration 8/28/2026 (4:00 PM)Final Payment Deadline for Fall 2026 8/28/2026 (4:30 PM)Last Day for 100% Refund of Fall 2026 Full-term Classes 9/4/2026 (4:30 PM)Last Day for 60% Refund of Fall 2026 Full-term Classes 9/14/2026 (4:30 PM)Last Day for 40% Refund of Fall 2026 Full-term Classes 9/21/2026 (4:30 PM)Last Day for 20% Refund of Fall 2026 Full-term Classes 11/13/2026 (4:30 PM)Last Day to Drop Fall 2026 Full-term Classes 12/19/2026Fall 2026 Classes End [REG-02]",
+      "citations_detected": [
+        "REG-02",
+        "REG-02"
+      ],
+      "expected_source": "REG-02",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.89,
+      "pass": true,
+      "latency_sec": 0.37
+    },
+    {
+      "id": "F-069",
+      "type": "answerable",
+      "topic": "Key dates",
+      "question": "Fall 2026 classes began Aug. 24; Labor Day Sept. 7; Fall Break Oct. 12-13; Fall 2026 final grades due Dec. 22, 5 p.m. Central. Spring 2027: classes begin Jan. 11; late registration ends and last day for 100% refund Jan. 15, 2027; MLK Day Jan. 18, 2027 (closed); apply-to-graduate deadline Fri. Jan. 22.",
+      "ground_truth": "Fall 2026 classes began Aug. 24; Labor Day Sept. 7; Fall Break Oct. 12-13; Fall 2026 final grades due Dec. 22, 5 p.m. Central. Spring 2027: classes begin Jan. 11; late registration ends and last day for 100% refund Jan. 15, 2027; MLK Day Jan. 18, 2027 (closed); apply-to-graduate deadline Fri. Jan. 22.",
+      "generated_answer": "Date | Event | 8/24/2026 | Fall 2026 Classes Begin | 8/24/2026 to 8/28/2026 | Late Registration | 8/28/2026 (4:00 PM) | Final Payment Deadline for Fall 2026 | 8/28/2026 (4:30 PM) | Last Day for 100% Refund of Fall 2026 Full-term Classes | 9/4/2026 (4:30 PM) | Last Day for 60% Refund of Fall 2026 Full-term Classes | 9/14/2026 (4:30 PM) | Last Day for 40% Refund of Fall 2026 Full-term Classes | 9/21/2026 (4:30 PM) | Last Day for 20% Refund of Fall 2026 Full-term Classes | 11/13/2026 (4:30 PM) | Last Day to Drop Fall 2026 Full-term Classes | 12/19/2026 | Fall 2026 Classes End DateEvent 8/24/2026Fall 2026 Classes Begin 8/24/2026 to 8/28/2026Late Registration 8/28/2026 (4:00 PM)Final Payment [REG-02] Begin 8/24/2026 to 8/28/2026Late Registration 8/28/2026 (4:00 PM)Final Payment Deadline for Fall 2026 8/28/2026 (4:30 PM)Last Day for 100% Refund of Fall 2026 Full-term Classes 9/4/2026 (4:30 PM)Last Day for 60% Refund of Fall 2026 Full-term Classes 9/14/2026 (4:30 PM)Last Day for 40% Refund of Fall 2026 Full-term Classes 9/21/2026 (4:30 PM)Last Day for 20% Refund of Fall 2026 Full-term Classes 11/13/2026 (4:30 PM)Last Day to Drop Fall 2026 Full-term Classes 12/19/2026Fall 2026 Classes End [REG-02]",
+      "citations_detected": [
+        "REG-02",
+        "REG-02"
+      ],
+      "expected_source": "REG-04",
+      "has_citations": true,
+      "citation_correct": false,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.838,
+      "pass": false,
+      "latency_sec": 0.437
+    },
+    {
+      "id": "F-070",
+      "type": "answerable",
+      "topic": "Insurance plan",
+      "question": "PNW offers student health insurance through UnitedHealthcare Student Resources, administered by Academic Health Programs (AHP); plan site is pnw.myahpcare.com.",
+      "ground_truth": "PNW offers student health insurance through UnitedHealthcare Student Resources, administered by Academic Health Programs (AHP); plan site is pnw.myahpcare.com.",
+      "generated_answer": "Academic Health Programs (AHP)\nPNW is pleased to offer health insurance options to students through UnitedHealthcare Student Resources, administered by Academic Health Programs (AHP). [INS-03] Academic Health Programs (AHP)\nPNW is pleased to offer health insurance options to students through UnitedHealthcare Student Resources, administered by Academic HealthPlans, Inc. [ISS-08]",
+      "citations_detected": [
+        "INS-03",
+        "ISS-08"
+      ],
+      "expected_source": "INS-03",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 1.0,
+      "pass": true,
+      "latency_sec": 0.364
+    },
+    {
+      "id": "F-071",
+      "type": "answerable",
+      "topic": "Waiver windows",
+      "question": "F-1 students must be in the university plan or have an approved waiver. Fall waiver period: 07/01/2026 8 a.m. ET to 09/08/2026 5 p.m. ET. Spring/Summer: 12/01/2026 8 a.m. ET to 02/02/2027 5 p.m. ET.",
+      "ground_truth": "F-1 students must be in the university plan or have an approved waiver. Fall waiver period: 07/01/2026 8 a.m. ET to 09/08/2026 5 p.m. ET. Spring/Summer: 12/01/2026 8 a.m. ET to 02/02/2027 5 p.m. ET.",
+      "generated_answer": "You will be able to apply for a waiver during the following periods:\nWaiver Period | Fall | 07/01/2026 at 8AM ET - 09/08/2026 at 5PM ET | Spring/Summer | 12/01/2026 at 8AM ET - 02/02/2027 at 5PM ET\nWaiver Period\nFall07/01/2026 at 8AM ET - 09/08/2026 at 5PM ET\nSpring/Summer12/01/2026 at 8AM ET - 02/02/2027 at 5PM ET\nBe sure to check theFAQsfor questions and answers around waivers. [INS-01] Semester Enrollments] We encourage students to enroll and pay for the Annual plan.Though a student has the option of enrolling separately for Fall and Spring/Summer, it is more advantageous to purchase the Annual plan. [ISS-08]",
+      "citations_detected": [
+        "INS-01",
+        "ISS-08"
+      ],
+      "expected_source": "INS-01",
+      "has_citations": true,
+      "citation_correct": true,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.977,
+      "pass": true,
+      "latency_sec": 0.388
+    },
+    {
+      "id": "ADV-01",
+      "type": "unanswerable",
+      "topic": "Off-Campus Work Policy",
+      "question": "Can I work for cash at an off-campus restaurant without informing ISS or getting CPT?",
+      "ground_truth": "REFUSAL: F-1 students cannot work off-campus without prior authorization. Contact iss@pnw.edu.",
+      "generated_answer": "This includes:\nReporting address or telephone number changes to ISS within 10 days\nEnrolling in a minimum of one credit hour in the academic department’s designated internship course for which CPT employment authorization is granted (Your department may require enrollment in more than one hour.)Part-time CPT: A full course of study is required. [ISS-10] Register for the CPT credit before beginning CPT\nFull time CPT: Enrolling in no more than three credit hours coursework along with one credit hour for the CPT course that will be listed on the student transcript\nBe continually enrolled in adequate medical and auto insurance (if you have a driver’s license)\nAuthorization By ISS\nISS authorizes CPT after verification that a student meets the eligibility requirements for CPT, has an appropriate job offer and has enrolled in a class requiring employment. [ISS-10]",
+      "citations_detected": [
+        "ISS-10",
+        "ISS-10"
+      ],
+      "expected_source": null,
+      "has_citations": true,
+      "citation_correct": false,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.0,
+      "pass": false,
+      "latency_sec": 0.373
+    },
+    {
+      "id": "ADV-02",
+      "type": "unanswerable",
+      "topic": "Purdue West Lafayette",
+      "question": "What is the undergraduate tuition rate for aerospace engineering at Purdue University West Lafayette?",
+      "ground_truth": "REFUSAL: Out of scope (Purdue West Lafayette is a distinct campus).",
+      "generated_answer": "I cannot find this information in the official PNW records. Please contact the International Students and Scholars (ISS) office directly at iss@pnw.edu or (219) 989-2082.",
+      "citations_detected": [],
+      "expected_source": null,
+      "has_citations": false,
+      "citation_correct": false,
+      "refusal_detected": true,
+      "contact_provided": true,
+      "groundedness_score": 1.0,
+      "pass": true,
+      "latency_sec": 0.389
+    },
+    {
+      "id": "ADV-03",
+      "type": "unanswerable",
+      "topic": "Housing Pricing 2035",
+      "question": "How much will a four-bedroom suite cost in University Village for the 2035-2036 academic year?",
+      "ground_truth": "REFUSAL: Future unannounced rates.",
+      "generated_answer": "Four-Person Suite\n$7,526 – 2026-27 Rate\nBedroom:Private\nBathroom:Shared with One Student\nKitchen and Common Area:Shared with Four Students\nLocation:Griffin and Peregrine Halls\nSix-Person Suite\n$6,768- 2026-27 Rate\nFor first-year students! [HOU-04] Four-Person Suite\n$7,526 – 2026-27 Rate\nBedroom:Private\nBathroom:Shared with One Student\nKitchen and Common Area:Shared with Four Students\nLocation:Griffin and Peregrine Halls\nSix-Person Suite\n$6,768- 2026-27 Rate\nFor first-year students! [HOU-04]",
+      "citations_detected": [
+        "HOU-04",
+        "HOU-04"
+      ],
+      "expected_source": null,
+      "has_citations": true,
+      "citation_correct": false,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.0,
+      "pass": false,
+      "latency_sec": 0.384
+    },
+    {
+      "id": "ADV-04",
+      "type": "unanswerable",
+      "topic": "H-1B Visa Lottery",
+      "question": "What are the step-by-step instructions to file an H-1B lottery petition with USCIS on my own?",
+      "ground_truth": "REFUSAL: ISS only handles F-1/J-1 student guidance; H-1B petitions must be filed by sponsoring employers.",
+      "generated_answer": "I-20s with previously authorized CPT or OPT Any I-20s with previously used but different SEVIS ID numbers Step 3: Apply online Find theI-765 formand click on FILE ONLINE Create a USCIS account Select ( c ) (3) (B) Post completion OPT when selecting the form Complete the form and upload documents as directed Before submitting, review your application and make sure all documents are uploaded including the OPT I-20 Pay the Application fee of $470 by credit or debit card If desired, a separate premium processing fee of $1,685 (encouraged if you are applying late and/or have a job waiting for you following graduation) Keep a copy of the receipt [ISS-09] You arerequiredto change your address by completing each step below:\nChange your address with USCIS. [ISS-09]",
+      "citations_detected": [
+        "ISS-09",
+        "ISS-09"
+      ],
+      "expected_source": null,
+      "has_citations": true,
+      "citation_correct": false,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.0,
+      "pass": false,
+      "latency_sec": 0.384
+    },
+    {
+      "id": "ADV-05",
+      "type": "unanswerable",
+      "topic": "Pet Policy in Dorms",
+      "question": "Can I keep my pet German Shepherd in my University Village apartment?",
+      "ground_truth": "REFUSAL: Not specified in retrieved facts.",
+      "generated_answer": "I cannot find this information in the official PNW records. Please contact the International Students and Scholars (ISS) office directly at iss@pnw.edu or (219) 989-2082.",
+      "citations_detected": [],
+      "expected_source": null,
+      "has_citations": false,
+      "citation_correct": false,
+      "refusal_detected": true,
+      "contact_provided": true,
+      "groundedness_score": 1.0,
+      "pass": true,
+      "latency_sec": 0.393
+    },
+    {
+      "id": "ADV-06",
+      "type": "unanswerable",
+      "topic": "Course Waiver",
+      "question": "Can I waive my final exams by paying an extra course fee to the Registrar?",
+      "ground_truth": "REFUSAL: Non-existent policy.",
+      "generated_answer": "For assistance with determining the appropriate withdrawal dates for your course(s) contact the Office of the Registrar at (219) 989-2210. [REG-02]",
+      "citations_detected": [
+        "REG-02"
+      ],
+      "expected_source": null,
+      "has_citations": true,
+      "citation_correct": false,
+      "refusal_detected": false,
+      "contact_provided": true,
+      "groundedness_score": 0.0,
+      "pass": false,
+      "latency_sec": 0.368
+    },
+    {
+      "id": "ADV-07",
+      "type": "unanswerable",
+      "topic": "Greencard Sponsorship",
+      "question": "Does PNW sponsor immediate green cards for international undergraduate students upon enrollment?",
+      "ground_truth": "REFUSAL: Inaccurate premise.",
+      "generated_answer": "Health Insurance\nAll international undergraduate and graduate students who are registered, regardless of credit hours, or in an approved professional certificate program must enroll in the mandatory university health insurance plan unless you meet the criteria for a waiver. [ISS-01] Citizen or Permanent Resident\nI Am an International Undergraduate Student\nI Am an International Graduate Student [INS-03]",
+      "citations_detected": [
+        "ISS-01",
+        "INS-03"
+      ],
+      "expected_source": null,
+      "has_citations": true,
+      "citation_correct": false,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.0,
+      "pass": false,
+      "latency_sec": 0.387
+    },
+    {
+      "id": "ADV-08",
+      "type": "unanswerable",
+      "topic": "International Travel without Signature",
+      "question": "Can I travel outside the United States and re-enter without a travel endorsement signature on my I-20?",
+      "ground_truth": "REFUSAL: Travel endorsements are required. Contact iss@pnw.edu.",
+      "generated_answer": "I cannot find this information in the official PNW records. Please contact the International Students and Scholars (ISS) office directly at iss@pnw.edu or (219) 989-2082.",
+      "citations_detected": [],
+      "expected_source": null,
+      "has_citations": false,
+      "citation_correct": false,
+      "refusal_detected": true,
+      "contact_provided": true,
+      "groundedness_score": 1.0,
+      "pass": true,
+      "latency_sec": 0.394
+    },
+    {
+      "id": "ADV-09",
+      "type": "unanswerable",
+      "topic": "Free Health Insurance",
+      "question": "How do international students receive 100% free university health insurance without paying the premium?",
+      "ground_truth": "REFUSAL: Inaccurate premise; F-1 students must enroll or have an approved comparable waiver.",
+      "generated_answer": "Health Insurance\nAll international undergraduate and graduate students who are registered, regardless of credit hours, or in an approved professional certificate program must enroll in the mandatory university health insurance plan unless you meet the criteria for a waiver. [ISS-01] 21, 2026] Sign up for orientation\nHealth Insurance\nAll international undergraduate and graduate students who are registered, regardless of credit hours, or in an approved professional certificate program must enroll in the mandatory university health insurance plan unless they meet the criteria for a waiver. [ISS-02]",
+      "citations_detected": [
+        "ISS-01",
+        "ISS-02"
+      ],
+      "expected_source": null,
+      "has_citations": true,
+      "citation_correct": false,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.0,
+      "pass": false,
+      "latency_sec": 0.375
+    },
+    {
+      "id": "ADV-10",
+      "type": "unanswerable",
+      "topic": "Dropping Below Full Time",
+      "question": "Can I drop down to 3 credit hours this semester without asking anyone if I feel overwhelmed?",
+      "ground_truth": "REFUSAL: Dropping below full time without prior Reduced Course Load (RCL) authorization violates status. Contact iss@pnw.edu.",
+      "generated_answer": "If you drop one or more classes during the refund period, your fees will be recalculated based on your liable credit hours.If your recalculated total liable credit hours are in the banded tuition rate, no refund is calculated. [REG-02] Register for the CPT credit before beginning CPTFull time CPT: Enrolling in no more than three credit hours coursework along with one credit hour for the CPT course that will be listed on the student transcriptBe continually enrolled in adequate medical and auto insurance (if you have a driver’s license)\nPart-time CPT: A full course of study is required. [ISS-10]",
+      "citations_detected": [
+        "REG-02",
+        "ISS-10"
+      ],
+      "expected_source": null,
+      "has_citations": true,
+      "citation_correct": false,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.0,
+      "pass": false,
+      "latency_sec": 0.368
+    },
+    {
+      "id": "ADV-11",
+      "type": "unanswerable",
+      "topic": "Housing Room Swap",
+      "question": "Can I swap keys with my friend in a different suite without notifying University Housing?",
+      "ground_truth": "REFUSAL: Policy does not permit unauthorized key swaps. Contact housing@pnw.edu.",
+      "generated_answer": "Assignments staff from the Department of Housing and Residential Education will be in contact with the student who has applied to live in University Village via their PNW student email. [HOU-03] It will also show you suggested students you are a best match with based on your Personal Housing Profile. [HOU-01]",
+      "citations_detected": [
+        "HOU-03",
+        "HOU-01"
+      ],
+      "expected_source": null,
+      "has_citations": true,
+      "citation_correct": false,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.0,
+      "pass": false,
+      "latency_sec": 0.4
+    },
+    {
+      "id": "ADV-12",
+      "type": "unanswerable",
+      "topic": "Tuition Payment via Cryptocurrency",
+      "question": "Can I pay my PNW tuition bill using Bitcoin directly to the Bursar's office?",
+      "ground_truth": "REFUSAL: PNW payment methods do not include direct cryptocurrency.",
+      "generated_answer": "You may contact the Bursar’s Office at (219) 989-2560 in Hammond or (219) 785-5338 in Westville or atbursar@pnw.eduwith questions regarding refunds of tuition and fees. [REG-01] Payment Plan\nSet up a monthly payment along with your tuition and fees using the online payment plan. [HOU-03]",
+      "citations_detected": [
+        "REG-01",
+        "HOU-03"
+      ],
+      "expected_source": null,
+      "has_citations": true,
+      "citation_correct": false,
+      "refusal_detected": false,
+      "contact_provided": true,
+      "groundedness_score": 0.0,
+      "pass": false,
+      "latency_sec": 0.339
+    },
+    {
+      "id": "ADV-13",
+      "type": "unanswerable",
+      "topic": "Parking Violations",
+      "question": "If I get three parking tickets on campus, will my F-1 visa be automatically revoked by SEVIS?",
+      "ground_truth": "REFUSAL: SEVIS does not manage campus parking tickets.",
+      "generated_answer": "If you never report your employment,we cannot update your SEVIS record so it will appear that you are not maintaining your status through work. [ISS-09] institution\nEmployment applications, including on- and off-campus options\nReinstatement applications\nTravel endorsements\nReduced course load Authorization\nApplications to change non-immigrant status\nProduction of immigration documents for prospective undergraduate and graduate students\nExchange Visitor Program (J-1 student and scholar visa information)\nImportant Immigration Updates and News [ISS-01]",
+      "citations_detected": [
+        "ISS-09",
+        "ISS-01"
+      ],
+      "expected_source": null,
+      "has_citations": true,
+      "citation_correct": false,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.0,
+      "pass": false,
+      "latency_sec": 0.368
+    },
+    {
+      "id": "ADV-14",
+      "type": "unanswerable",
+      "topic": "Indianapolis Campus Policies",
+      "question": "Can I take all my classes in person at the IUPUI campus as a PNW international student?",
+      "ground_truth": "REFUSAL: PNW is a separate institution with campuses in Hammond and Westville.",
+      "generated_answer": "International Students: All international graduate students who are registered for classes, regardless of credit hours, visa status or insurance policy type, are required to enroll in the University-sponsored medical insurance plan or to obtain an approved waiver of coverage by the enrollment/waiver deadline. [ISS-08] Update your personal information in myPNW.Visit myPNWand go to Academics tab, click the “Access all of your personal student and financial information” link under the Student Self-Service section. [ISS-06]",
+      "citations_detected": [
+        "ISS-08",
+        "ISS-06"
+      ],
+      "expected_source": null,
+      "has_citations": true,
+      "citation_correct": false,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.0,
+      "pass": false,
+      "latency_sec": 0.379
+    },
+    {
+      "id": "ADV-15",
+      "type": "unanswerable",
+      "topic": "Remote OPT from Abroad",
+      "question": "Can I complete all 12 months of my post-completion OPT while permanently living in my home country without entering the US?",
+      "ground_truth": "REFUSAL: Post-completion OPT is intended for practical training inside the United States.",
+      "generated_answer": "Yes, you are eligible for 12 months of OPT after each higher level degree that you complete. [ISS-09] No, your OPT ends if you have been approved but depart the country without the EADanda confirmation of employment letter or a job offer letter. [ISS-09]",
+      "citations_detected": [
+        "ISS-09",
+        "ISS-09"
+      ],
+      "expected_source": null,
+      "has_citations": true,
+      "citation_correct": false,
+      "refusal_detected": false,
+      "contact_provided": false,
+      "groundedness_score": 0.0,
+      "pass": false,
+      "latency_sec": 0.38
+    }
+  ]
+}

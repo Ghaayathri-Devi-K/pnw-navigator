@@ -1,0 +1,20 @@
+{
+  "id": "ISS-04",
+  "area": "ISS",
+  "title": "F-1 Transfer Information (Hammond campus)",
+  "url": "https://www.pnw.edu/wp-content/uploads/2026/02/Transfer-information-form-Hammond.pdf",
+  "tag": "immigration",
+  "format": "pdf",
+  "valid_for_term": "Yearly",
+  "scraped_at": "2026-10-31T02:16:36.774390+00:00",
+  "raw_file": "data\\raw\\ISS-04.pdf",
+  "char_count": 461,
+  "section_count": 1,
+  "text": "INTERNATIONAL STUDENT SERVICES \n \n \n \n \n \nINTERNATIONAL F-1 STUDENT TRANSFER INFORMATION \n \nHammond Campus \nThe School Name for release is Purdue University – Purdue University Northwest \n(Calumet); School code: CHI214F10460002 \n \nGenerally we only accept ACTIVE records. Please contact us before transferring a \nterminated or completed record. \n \nContact information: \ne-mail: iss@pnw.edu \nTelephone: 219-989-2082 \nAddress: 2200 169th Street, Hammond, IN 46323",
+  "sections": [
+    {
+      "heading": "Page 1",
+      "content": "INTERNATIONAL STUDENT SERVICES \n \n \n \n \n \nINTERNATIONAL F-1 STUDENT TRANSFER INFORMATION \n \nHammond Campus \nThe School Name for release is Purdue University – Purdue University Northwest \n(Calumet); School code: CHI214F10460002 \n \nGenerally we only accept ACTIVE records. Please contact us before transferring a \nterminated or completed record. \n \nContact information: \ne-mail: iss@pnw.edu \nTelephone: 219-989-2082 \nAddress: 2200 169th Street, Hammond, IN 46323"
+    }
+  ]
+}
